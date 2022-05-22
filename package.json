@@ -1,0 +1,16 @@
+{
+  "name": "bmp_new_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css" : "tailwindcss -i src/style.css -o public/output.css",
+    "watch" : "tailwindcss -i src/style.css -o public/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
