@@ -1,0 +1,84 @@
+/* font family add */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Add the Tailwind directives to your CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* mobile menu show css */
+.showMenu {
+  left: 0;
+}
+
+.showCateMenu {
+  opacity: 1;
+  z-index: 111;
+  visibility: visible;
+}
+
+.showPicUp {
+  opacity: 1;
+  z-index: 111;
+  visibility: visible;
+}
+
+.lanShow {
+  opacity: 1;
+  z-index: 111;
+  visibility: visible;
+}
+
+.show_location {
+  opacity: 1;
+  z-index: 111;
+  visibility: visible;
+}
+
+/* text background clip color */
+@layer components {
+  .text-clip-text {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(180deg, #028ff0 0%, #02f0c3 100%);
+    background-size: 100%;
+  }
+}
+/* button  */
+
+
+/* accordion css */
+.accordion__active .accordion__content {
+  opacity: 1;
+}
+
+/* List and grid active button */
+
+.grid_view.active_button svg path {
+  fill: #076faf;
+}
+.list_view.active_button svg path {
+  stroke: #076faf;
+}
+
+/* product review toggle content */
+.review_show {
+  opacity: 1;
+}
+
+
+/* swiper all button css hear */
+@media (max-width: 767px) {
+  .newArrival-button-next, .newArrival-button-prev {
+    display: none;
+  }
+}
+.newArrival-button-next.swiper-button-disabled {
+  opacity: .5;
+}
+.newArrival-button-prev.swiper-button-disabled {
+  opacity: .5;
+}

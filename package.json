@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css" : "tailwindcss -i src/style.css -o public/output.css",
-    "watch" : "tailwindcss -i src/style.css -o public/output.css --watch"
+    "build-css": "tailwindcss -i src/css/style.css -o public/output.css",
+    "watch": "tailwindcss -i src/css/style.css -o public/output.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.4.0",
     "tailwindcss": "^3.0.24"
   }
 }
