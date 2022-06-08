@@ -71,6 +71,17 @@
 
 
 /* swiper all button css hear */
+.swiper-pagination span.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 8px;
+}
+.swiper-pagination span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  opacity: .5;
+  width: 26px;
+  background: #02F0C3;
+}
+
 @media (max-width: 767px) {
   .newArrival-button-next, .newArrival-button-prev {
     display: none;

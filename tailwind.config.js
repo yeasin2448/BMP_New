@@ -24,7 +24,7 @@ module.exports = {
         header_bg: "#002138",
       },
       dropShadow: {
-        themeShowdow: "0px 1px 11px rgba(37, 52, 119, 0.13)",
+        bmp: "0px 1px 17px rgba(0, 27, 45, 0.09)",
       },
     },
     fontFamily : {
