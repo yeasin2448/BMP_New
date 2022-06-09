@@ -1986,8 +1986,7 @@
                             y2="-1.31891"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stop-color="#02F0C3" />
-                            <stop offset="1" stop-color="#028FF0" />
+                            <stop offset="1" stop-color="#9C9C9C" />
                           </linearGradient>
                         </defs>
                       </svg>
@@ -5243,10 +5242,122 @@
     </section>
     <!-- build cart ends  -->
 
+    <!-- footer area start -->
+    <footer class="bg-[#002138] lg:py-[60px] py-10">
+      <div class="container mx-auto">
+        <div class="grid grid-cols-2">
+          <div class="footer_links">
+            <div class="grid grid-cols-3">
+              <div class="link-list">
+                <h4 class="text-white lg:text-xl text-base font-medium pb-2">Usefull Links</h4>
+                <ul class="">
+                  <li>
+                    <a href="#0" class="text-white md:text-[15px] text-sm">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#0" class="text-white md:text-[15px] text-sm">Terms And Conditions</a>
+                  </li>
+                  <li>
+                    <a href="#0" class="text-white md:text-[15px] text-sm">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="#0" class="text-white md:text-[15px] text-sm">Our Partners</a>
+                  </li>
+                  <li>
+                    <a href="#0" class="text-white md:text-[15px] text-sm">FAQ</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer area ends  -->
+
     <!-- optional js -->
     <script src="../src/js/swiper-bundle.js"></script>
     <script>
 
+      // accesing nested array
+      let myPlants = [
+        {
+          type : "flowers",
+          list : [
+            "rese",
+            "tulip",
+            "dandelion"
+          ]
+        },
+        {
+          type : "fruties",
+          list :  [
+            "Apple",
+            "Orange",
+            "Mango"
+          ]
+        }
+      ]
+
+      let myStor = myPlants[1].list[1]
+
+      console.log(myStor)
+
+
+
+      // accesing nested object
+      let myStorege = {
+        "car" : {
+          "inside" : {
+            "golove box" : "map",
+            "passenger" : "crums"
+          },
+          "outside" : {
+            "glass" : "Gun",
+            "seat Balt" : "Lost"
+          }
+        }
+      }
+
+      let gblobeBoxContent = myStorege.car.inside["golove box"] // change this line
+      console.log(gblobeBoxContent);
+
+      // testing object for propertise
+      let myObj = {
+        "Frist Name" : "Yeasin",
+        "Last Name" : "arafat",
+        "Age" : 21,
+        "eye" : "black",
+      }
+
+      function chckObj(checkProp) {
+        if(myObj.hasOwnProperty(checkProp)) {
+          return myObj[checkProp]
+        } else {
+          return "Not Found"
+        }
+      }
+
+      console.log(chckObj("Last Name"));
+
+      // using objects for lookups
+      function phoneticLookup(val) {
+        let result = "";
+
+        let allLookUp = {
+          "adams" : "New yourk",
+          "fox" : "Boston",
+          "looks" : "Moks",
+          "trems" : "Five star",
+          "sayem" : "lookup",
+        }
+
+        result = allLookUp[val]
+
+        return result
+      }
+
+        console.log(phoneticLookup("fox"));
       // return a bolean
       function isLess(a, b) {
        return (a < b)
