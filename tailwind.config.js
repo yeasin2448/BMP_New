@@ -26,12 +26,16 @@ module.exports = {
       dropShadow: {
         bmp: "0px 1px 17px rgba(0, 27, 45, 0.09)",
       },
+      boxShadow: {
+        bmpshadow : "0px 1px 13px rgba(46, 49, 146, 0.09)",
+      }
     },
     fontFamily : {
       'oswald' : "'Oswald', sans-serif",
       'teko' : "'Teko', sans-serif",
       'roboto' : "'Roboto', sans-serif",
-      'barlow' : "'Barlow Semi Condensed', sans-serif"
+      'barlow' : "'Barlow Semi Condensed', sans-serif",
+      "archivo" : "'Archivo Narrow', sans-serif;"
     }
   },
   plugins: [
