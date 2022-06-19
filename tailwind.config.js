@@ -28,6 +28,7 @@ module.exports = {
       },
       boxShadow: {
         bmpshadow : "0px 1px 13px rgba(46, 49, 146, 0.09)",
+        approve_process : "0px 0px 14px rgba(13, 193, 217, 0.16)"
       }
     },
     fontFamily : {
