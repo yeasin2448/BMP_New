@@ -109,3 +109,23 @@
 .newArrival-button-prev.swiper-button-disabled {
   opacity: .5;
 }
+
+/* e-franchises step modal */
+#modal_bg {
+  animation-name: animatemodal;
+  animation-duration: 0.4s;
+}
+
+/* animation part */
+@keyframes animatemodal {
+  from {
+    top: -800px;
+    opacity: 0;
+  }
+  to {
+    top: 50%;
+    opacity: 1;
+    transform: translateY(-50%);
+  }
+}
+/* animation part end */

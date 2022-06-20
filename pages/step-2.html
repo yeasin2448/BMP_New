@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- swiper css -->
+    <link rel="stylesheet" href="../src/css/swiper-bundle.css" />
+    <!-- output css -->
+    <link rel="stylesheet" href="../public/output.css" />
+    <title>BMP_E-commerce</title>
+  </head>
+  <body class="font-archivo overflow-x-hidden">
+    <!-- e-header start -->
+    <header class="py-5 shadow-bmpshadow">
+      <div class="container mx-auto">
+        <div class="flex items-center justify-between">
+          <div class="logo">
+            <img src="../src/images/logo/logo.png" alt="" />
+          </div>
+          <div class="e-menu">
+            <ul class="flex items-center lg:gap-8 gap-4">
+              <li>
+                <a
+                  href="#0"
+                  class="md:text-base text-sm text-black font-normal not-italic"
+                  >How this work</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#0"
+                  class="md:text-base text-sm text-black font-normal not-italic"
+                  >How this work</a
+                >
+              </li>
+              <li>
+                <button
+                  type="button"
+                  id="e_btn"
+                  class="bmp_btn font-bold not-italic px-3 py-1 tracking-[.5px]"
+                >
+                  Apply Now
+                </button>
+              </li>
+              <li>
+                <button type="button">
+                  <svg
+                    width="30"
+                    height="30"
+                    viewBox="0 0 30 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.9417 0H16.0549C16.1394 0.0187991 16.2224 0.0446552 16.3077 0.0564046C16.8102 0.123768 17.3181 0.157445 17.8136 0.256924C21.5289 1.00341 24.5758 2.85903 26.887 5.86376C29.3133 9.02123 30.305 12.6173 29.9191 16.5753C29.6577 19.2519 28.7451 21.713 27.1117 23.8514C23.5309 28.5371 18.7676 30.5517 12.9195 29.871C10.1802 29.5522 7.72729 28.4431 5.58669 26.6924C2.70177 24.3339 0.9032 21.3245 0.234801 17.6532C0.138532 17.1276 0.0782669 16.5949 0 16.0654V13.9505C0.0430468 13.6137 0.0821801 13.2753 0.130706 12.9393C0.55413 10.0411 1.69604 7.45621 3.60967 5.24183C5.94359 2.5418 8.86764 0.855364 12.3881 0.228726C12.9023 0.13943 13.4228 0.0759798 13.9417 0ZM3.78734 22.4728C5.70435 19.7051 8.28951 17.8626 11.5428 16.9451C8.41839 14.6437 8.28142 10.4695 10.548 7.963C11.6178 6.7868 13.1097 6.0829 14.6971 6.00552C16.2844 5.92815 17.8376 6.48361 19.0165 7.5502C20.2688 8.67501 20.9356 10.099 20.9881 11.78C21.0546 13.9231 20.1592 15.6182 18.4475 16.9404C21.7238 17.8576 24.2933 19.7109 26.2139 22.4775C29.6976 17.3861 29.3337 9.74892 24.0068 4.95827C18.5751 0.0720671 10.3766 0.453529 5.39494 5.52224C0.348288 10.663 0.663703 18.0855 3.78734 22.4728ZM4.73671 23.7519C10.0776 30.1115 19.9831 30.059 25.2528 23.7519C22.8461 20.119 19.4994 18.0722 15.1102 18.0338C10.6365 17.9986 7.21386 20.0391 4.73671 23.7519ZM14.9897 16.5002C16.1783 16.5037 17.3199 16.0359 18.1648 15.1992C19.0096 14.3625 19.489 13.2249 19.4979 12.0354C19.5213 9.56719 17.4856 7.51261 15.0092 7.50712C13.8149 7.50919 12.67 7.98466 11.8252 8.82949C10.9803 9.67432 10.5042 10.8197 10.5011 12.015C10.5042 13.2043 10.9778 14.344 11.8185 15.1847C12.6591 16.0254 13.7982 16.4987 14.9865 16.5009L14.9897 16.5002Z"
+                      fill="url(#paint0_linear_702_1214)"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_702_1214"
+                        x1="15"
+                        y1="0"
+                        x2="15"
+                        y2="30"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#028FF0" />
+                        <stop offset="1" stop-color="#0DC1D9" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- e-header ends  -->
+
+    <!-- e-banner start -->
+    <section class="e_banner bg-white pt-[60px] mt-3">
+      <div class="container mx-auto">
+        <div class="flex items-center">
+          <div class="banner_text lg:w-[50%]">
+            <h2
+              class="lg:text-4xl sm:text-2xl text-xl font-semibold text-black uppercase pb-2"
+            >
+              Join Our Family
+            </h2>
+            <p class="max-w-[450px] text-sm font-light">
+              Welcome to British market place Franchising. Discover the benefits
+              of investing in one of the world’s leading and most loved company
+              and learn how to be crowned a B2B franchisee.
+            </p>
+            <button
+              type="button"
+              class="text-black md:text-base text-sm uppercase border border-[#028FF0] px-3 py-1 rounded-md mt-[30px]"
+            >
+              Join Now
+            </button>
+          </div>
+          <div class="banner_thumb lg:w-[50%] text-center">
+            <img
+              class="mx-auto"
+              src="../src/images/banner/e-thumb.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="e_banner_b_shap relative after:absolute after:block after:top-1 after:left-0 after:w-full after:h-5 after:bg-white"
+      >
+        <svg
+          viewBox="0 0 1546 160"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g filter="url(#filter0_d_875_1560)">
+            <path
+              d="M1011.16 84.3187C704.71 195.846 220.866 123.134 17.5001 72.8378L17 17H1529L1528.74 76.118C1484.07 32.3817 1317.61 -27.2088 1011.16 84.3187Z"
+              fill="white"
+            />
+          </g>
+          <path
+            d="M420 135.572C520.254 97.0752 775.809 34.1362 996 90.3564C926.773 116.869 714.656 163.029 420 135.572Z"
+            fill="url(#paint0_linear_875_1560)"
+            fill-opacity="0.6"
+          />
+          <path
+            d="M1529 24.4574C1491.21 8.69461 1445.42 22.1077 1427.5 30.4999C1494.23 46.7007 1523.14 68.0606 1529 77.0001V24.4574Z"
+            fill="#028FF0"
+            fill-opacity="0.6"
+          />
+          <defs>
+            <filter
+              id="filter0_d_875_1560"
+              x="0"
+              y="0"
+              width="1546"
+              height="160"
+              filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB"
+            >
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                result="hardAlpha"
+              />
+              <feOffset />
+              <feGaussianBlur stdDeviation="8.5" />
+              <feComposite in2="hardAlpha" operator="out" />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 0.00784314 0 0 0 0 0.560784 0 0 0 0 0.941176 0 0 0 0.24 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="BackgroundImageFix"
+                result="effect1_dropShadow_875_1560"
+              />
+              <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="effect1_dropShadow_875_1560"
+                result="shape"
+              />
+            </filter>
+            <linearGradient
+              id="paint0_linear_875_1560"
+              x1="708"
+              y1="68"
+              x2="708"
+              y2="144"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#028FF0" />
+              <stop offset="1" stop-color="#0DC1D9" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+    </section>
+    <!-- e-banner ends  -->
+
+    <!-- e-apply-modal start -->
+    <div
+      class="bg-black bg-opacity-80 fixed top-0 left-0 w-full h-full z-50 hidden"
+      id="modal_bg"
+    >
+      <div
+        class="bg-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:w-[500px] md:w-[400px] w-[300px] rounded-lg p-6"
+        id="modal_content"
+      >
+        <span
+          class="inline-flex justify-center items-center h-8 w-8 rounded-full bg-black bg-opacity-80 absolute -top-3 -right-3 z-50 cursor-pointer"
+          id="em_close"
+        >
+          <svg
+            class="w-4 h-4 fill-white"
+            viewBox="0 0 8 8"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4.94694 3.98075C5.07462 4.09678 5.16748 4.18379 5.26033 4.27081C5.89292 4.90314 6.52552 5.53547 7.15811 6.1678C7.38445 6.39404 7.4657 6.64929 7.35543 6.95096C7.20454 7.36864 6.68221 7.52527 6.31078 7.27002C6.24694 7.22361 6.18891 7.1714 6.13668 7.11339C5.45766 6.43465 4.78444 5.76171 4.10542 5.08298C4.0706 5.04817 4.03578 5.01336 3.99515 4.97856C3.95453 5.01916 3.91971 5.05397 3.88489 5.08878C3.19426 5.77912 2.50363 6.46946 1.81301 7.1598C1.58667 7.38604 1.32551 7.46146 1.02952 7.35124C0.611665 7.19461 0.460771 6.6725 0.721933 6.30703C0.762558 6.24901 0.81479 6.1968 0.867022 6.14459C1.54604 5.46585 2.21926 4.78712 2.89828 4.11418C2.9331 4.07937 2.97953 4.05617 3.02596 4.01556C2.96792 3.95175 2.9331 3.91694 2.89247 3.87633C2.20185 3.18599 1.51702 2.50145 0.826397 1.81691C0.605861 1.59067 0.524611 1.32961 0.634879 1.02795C0.785772 0.610268 1.30809 0.453636 1.67952 0.708888C1.74336 0.755297 1.8014 0.807508 1.85363 0.865519C2.53265 1.54426 3.20587 2.21719 3.88489 2.89593C3.91971 2.93074 3.95453 2.96555 3.99515 3.00035C4.03578 2.95975 4.0706 2.92494 4.10542 2.89013C4.79605 2.19979 5.48667 1.50945 6.1773 0.81911C6.40364 0.592864 6.6648 0.517449 6.96078 0.627671C7.37864 0.784303 7.52954 1.30641 7.26837 1.67188C7.22775 1.7299 7.17552 1.78211 7.12329 1.83432C6.44427 2.51305 5.77105 3.19179 5.09203 3.86473C5.05721 3.91114 5.01078 3.93434 4.94694 3.98075Z"
+              fill="white"
+            />
+          </svg>
+        </span>
+        <div class="e_modal_body">
+          <div class="modal-thumb">
+            <img
+              class="mx-auto"
+              src="../src/images/why-e/form/step-1.png"
+              alt=""
+            />
+          </div>
+          <div class="modal-text text-center pt-6">
+            <h4 class="lg:text-xl text-lg text-black font-medium">
+              Write your phone number
+            </h4>
+            <form action="" class="mt-6 w-[80%] mx-auto">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="h-[42px] px-3 border border-[#0DC1D9] rounded-md w-full focus-visible:outline-none text-sm placeholder:text-sm text-[#999999]"
+                  placeholder="enter your phone number..."
+                />
+              </div>
+              <div class="flex justify-end items-center gap-3 pt-6">
+                <button type="button" class="text-black text-sm font-normal">Back</button>
+                <button type="button" class="text-sm font-normal bmp_btn w-[100px] py-2">Continue</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- e-apply-modal ends  -->
+
+    <!-- optional js -->
+    <script src="../src/js/swiper-bundle.js"></script>
+    <script>
+      // e-franchise modal
+      let apBtn = document.getElementById("e_btn");
+      let modalBg = document.getElementById("modal_bg");
+      let closeEbtn = document.getElementById("em_close");
+
+      // e-apply btn
+      apBtn.addEventListener("click", () => {
+        modalBg.classList.add("block");
+        modalBg.classList.remove("hidden");
+      });
+
+      // closeBtn close modal
+      closeEbtn.addEventListener("click", () => {
+        modalBg.classList.remove("block");
+        modalBg.classList.add("hidden");
+      });
+
+      // modalBg click close
+      window.addEventListener("click", (e) => {
+        if (e.target === modalBg) {
+          modalBg.classList.remove("block");
+          modalBg.classList.add("hidden");
+        }
+      });
+
+      // new arrivals
+      var swiper = new Swiper(".newArrival_slider", {
+        slidesPerView: 1.8,
+        navigation: {
+          nextEl: ".newArrival-button-next",
+          prevEl: ".newArrival-button-prev",
+        },
+        breakpoints: {
+          576: {
+            slidesPerView: 3.5,
+            navigation: false,
+          },
+          768: {
+            slidesPerView: 4,
+          },
+          1024: {
+            slidesPerView: 5,
+          },
+        },
+      });
+
+      // banner slider
+      var swiper = new Swiper(".banner_slider", {
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".banner-button-next",
+          prevEl: ".banner-button-prev",
+        },
+      });
+
+      // location content
+      let locaBtn = document.getElementById("locationBtn");
+      let locContent = document.getElementById("location_content");
+
+      locaBtn.onclick = function () {
+        locContent.classList.toggle("show_location");
+        lanContent.classList.remove("lanShow");
+        pickUpContent.classList.remove("showPicUp");
+        categoryMenu.classList.remove("showCateMenu");
+      };
+
+      // lan & currency
+      let lan_btn = document.getElementById("lanBtn");
+      let lanContent = document.getElementById("lan_content");
+
+      lan_btn.onclick = function () {
+        lanContent.classList.toggle("lanShow");
+        pickUpContent.classList.remove("showPicUp");
+        categoryMenu.classList.remove("showCateMenu");
+        locContent.classList.remove("show_location");
+      };
+
+      // pickup product
+      let picUpBtn = document.getElementById("pickupBtn");
+      let pickUpContent = document.getElementById("pickupContent");
+
+      picUpBtn.onclick = function () {
+        pickUpContent.classList.toggle("showPicUp");
+        lanContent.classList.remove("lanShow");
+        categoryMenu.classList.remove("showCateMenu");
+        locContent.classList.remove("show_location");
+      };
+
+      // all category menu
+      let cateBtn = document.getElementById("categoryBtn");
+      let categoryMenu = document.getElementById("toggleCategoryMenu");
+
+      cateBtn.onclick = function () {
+        cateBtn.classList.toggle("activeCateBtn");
+        categoryMenu.classList.toggle("showCateMenu");
+        pickUpContent.classList.remove("showPicUp");
+        lanContent.classList.remove("lanShow");
+        locContent.classList.remove("show_location");
+      };
+
+      // open mobile menu
+      let menu_content = document.getElementById("toggleMenu");
+      document.getElementById("toggleBtn").onclick = function (e) {
+        menu_content.classList.toggle("showMenu");
+      };
+      // close mobile menu
+      document.getElementById("menuClose").onclick = function () {
+        menu_content.classList.remove("showMenu");
+      };
+    </script>
+  </body>
+</html>
