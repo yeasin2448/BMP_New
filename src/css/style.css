@@ -1,9 +1,9 @@
 /* font family add */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Teko:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
 /* Add the Tailwind directives to your CSS */
 @tailwind base;
@@ -50,7 +50,7 @@
   .bmp_btn {
     color: #fff;
     border-radius: 6px;
-    background: linear-gradient(94.99deg, #028FF0 0%, #0DC1D9 98.12%);;
+    background: linear-gradient(94.99deg, #028ff0 0%, #0dc1d9 98.12%);
   }
 }
 /* button  */
@@ -61,10 +61,26 @@
   width: calc(100% + 42.3px);
 }
 
-
 /* accordion css */
 .accordion__active .accordion__content {
   opacity: 1;
+}
+
+.accordion {
+  width: 100%;
+  overflow: hidden;
+}
+
+.accordion__content {
+  max-height: 0;
+  overflow: hidden;
+  will-change: max-height;
+  transition: all 0.25s ease-out;
+}
+
+.accordion__content.active {
+  opacity: 1;
+  visibility: visible;
 }
 
 /* List and grid active button */
@@ -81,33 +97,38 @@
   opacity: 1;
 }
 
-
 /* swiper all button css hear */
 .swiper-pagination span.swiper-pagination-bullet {
   width: 10px;
   height: 10px;
   border-radius: 8px;
 }
-.swiper-pagination span.swiper-pagination-bullet.swiper-pagination-bullet-active {
-  opacity: .5;
+.swiper-pagination
+  span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  opacity: 0.5;
   width: 26px;
-  background: #02F0C3;
+  background: #02f0c3;
 }
 
-.swiper-slide-thumb-active img{
+.swiper-slide-thumb-active img {
   border: 1px solid #000;
+}
+.location_slider .swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  opacity: 0 !important;
 }
 
 @media (max-width: 767px) {
-  .newArrival-button-next, .newArrival-button-prev {
+  .newArrival-button-next,
+  .newArrival-button-prev {
     display: none;
   }
 }
 .newArrival-button-next.swiper-button-disabled {
-  opacity: .5;
+  opacity: 0.5;
 }
 .newArrival-button-prev.swiper-button-disabled {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 /* e-franchises step modal */
@@ -129,3 +150,33 @@
   }
 }
 /* animation part end */
+
+/* e-franchises profile */
+.e-profile-wrap ul li a {
+  transition: all .3s ease-in-out;
+}
+.e-profile-wrap ul li a span {
+  transition: all .2s ease-in-out;
+}
+.e-profile-wrap ul li a.active, a:hover {
+  background: #0dc1d9;
+}
+.e-profile-wrap ul li a.active span, a:hover span {
+  color: #fff;
+}
+.e-profile-wrap ul li a.active span svg path, a:hover span svg path {
+  fill: #fff;
+}
+.e-profile-wrap ul li a.active span svg defs stop, a:hover span svg defs stop {
+  stop-color: #fff;
+}
+
+.e_profile_right {
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .e_profile_right {
+    width: calc(100% - 320px);
+  }
+}
