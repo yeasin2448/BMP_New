@@ -41,6 +41,7 @@ module.exports = {
   },
   plugins: [
     require("@tailwindcss/line-clamp"),
+    require('@tailwindcss/forms'),
     plugin (function ({addComponents}) {
       addComponents ({
         '.btn' : {

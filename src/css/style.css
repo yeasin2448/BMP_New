@@ -55,6 +55,10 @@
 }
 /* button  */
 
+select {
+  background-image: none;
+}
+
 /* banner shape */
 .e_banner_b_shap svg {
   margin-left: -23px;
@@ -153,22 +157,83 @@
 
 /* e-franchises profile */
 .e-profile-wrap ul li a {
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .e-profile-wrap ul li a span {
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.e-profile-wrap ul li a.active, a:hover {
+.e-profile-wrap ul li a.active,
+.e-profile-wrap ul li a:hover {
   background: #0dc1d9;
 }
-.e-profile-wrap ul li a.active span, a:hover span {
+.e-profile-wrap ul li a.active span,
+a:hover span {
   color: #fff;
 }
-.e-profile-wrap ul li a.active span svg path, a:hover span svg path {
+.e-profile-wrap ul li a.active span svg path,
+a:hover span svg path {
   fill: #fff;
 }
-.e-profile-wrap ul li a.active span svg defs stop, a:hover span svg defs stop {
+.e-profile-wrap ul li a.active span svg defs stop,
+a:hover span svg defs stop {
   stop-color: #fff;
+}
+
+.w-tabs .w-btn-container button.w-btn.active {
+  color: #fff;
+  background: linear-gradient(94.99deg, #028ff0 0%, #0dc1d9 98.12%);
+}
+.w-tabs .w-panel-container .w-panel {
+  opacity: 0;
+  height: auto;
+  max-height: 0px;
+  display: none;
+  transition: all 0.2s ease-in-out;
+}
+.w-tabs .w-panel-container .w-panel.active {
+  opacity: 1;
+  height: auto;
+  max-height: 500px;
+  display: block;
+  transition: all 0.2s ease-in-out;
+}
+
+.profit_card #chart-line-tasks {
+  height: 350px!important;
+}
+
+.select-box .options-container {
+  width: calc(100% - 1px);
+}
+
+.select-box .options-container.active {
+  max-height: 240px;
+  opacity: 1;
+  overflow-y: scroll;
+}
+.select-box .options-container.active + .selected::after {
+  transform: translateY(-50%) rotate(225deg);
+}
+
+.select-box .selected::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 10px;
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-bottom-color: #0DC1D9;
+  border-width: 0 0 8px 8px;
+  transform: translateY(-50%)rotate(45deg);
+}
+
+
+@media (max-width: 1199px) {
+  .e-profile .profile-left {
+    left: -300px;
+  }
 }
 
 .e_profile_right {
@@ -178,5 +243,17 @@
 @media (min-width: 1200px) {
   .e_profile_right {
     width: calc(100% - 320px);
+  }
+}
+
+@media (min-width: 768px) {
+  .e-profile .e_profile_right .referral-content ul.overview_list li {
+    width: calc(100% / 3);
+  }
+}
+
+@media (min-width: 768px) {
+  .e-profile .e_profile_right .table-item ul.overview_list li {
+    width: calc(100% / 3);
   }
 }
