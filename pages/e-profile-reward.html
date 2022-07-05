@@ -23,21 +23,22 @@
               <li>
                 <a
                   href="#0"
-                  class="md:text-base text-sm text-black font-normal not-italic"
+                  class="md:text-base text-sm text-black font-normal not-italic sm:block hidden"
                   >How this work</a
                 >
               </li>
               <li>
                 <a
                   href="#0"
-                  class="md:text-base text-sm text-black font-normal not-italic"
+                  class="md:text-base text-sm text-black font-normal not-italic sm:block hidden"
                   >How this work</a
                 >
               </li>
               <li>
                 <button
                   type="button"
-                  class="bmp_btn font-bold not-italic px-3 py-1 tracking-[.5px]"
+                  id="e_btn"
+                  class="bmp_btn font-bold not-italic px-3 py-1 tracking-[.5px] sm:block hidden"
                 >
                   Apply Now
                 </button>
@@ -108,7 +109,7 @@
                 <li class="mb-3">
                   <a
                     href="e-profile.html"
-                    class="flex justify-start items-center gap-2 p-2 px-3 rounded-md"
+                    class="active flex justify-start items-center gap-2 p-2 px-3 rounded-md"
                   >
                     <span
                       ><svg
@@ -495,7 +496,7 @@
                 <li class="mb-3">
                   <a
                     href="e-profile-wallet.html"
-                    class="active flex justify-start items-center gap-2 p-2 px-3 rounded-md"
+                    class="flex justify-start items-center gap-2 p-2 px-3 rounded-md"
                   >
                     <span>
                       <svg
@@ -891,325 +892,588 @@
             </div>
           </div>
           <div class="e_profile_right ml-auto mr-0">
-            <div class="max-w-[462px]">
-              <div class="mt-4">
-                <h4
-                  class="text-black lg:text-xl md:text-lg text-base font-medium pb-3"
+            <div class="mt-4">
+              <h4 class="text-black lg:text-xl text-lg font-medium">Reward</h4>
+              <p class="md:text-base text-sm text-black">
+                Total rewards earned:
+                <span class="md:text-base text-sm text-[#0DC1D9]"
+                  >£ 89079.09</span
                 >
-                  Add Account
-                </h4>
-                <div class="select-box flex max-w-full flex-col relative">
-                  <div
-                    class="options-container absolute top-full mt-2 py-3 left-00 bg-white shadow-bmpshadow rounded-bl-md rounded-br-md max-h-0 opacity-0 order-1 overflow-hidden transition-all"
+              </p>
+              <h4 class="text-black lg:text-xl text-lg font-medium py-3">
+                Your referals reward
+              </h4>
+              <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-3">
+                <div
+                  class="bg-white shadow-bmpshadow rounded-md p-4 text-center"
+                >
+                  <h6 class="text-black md:text-base text-sm font-medium">
+                    Jony Been
+                  </h6>
+                  <p
+                    class="text-black md:text-base text-sm font-light py-[6px]"
                   >
-                    <div
-                      class="option mb-2 py-2 px-3 group hover:bg-[#dcdfe5] transition-all ease-in-out bg-opacity-20"
-                    >
-                      <label class="flex items-center gap-2" for="grade-a">
-                        <span
-                          class="h-6 w-6 rounded-full bg-[#0DC1D9] text-white text-sm inline-block text-center leading-6"
-                          >TK</span
-                        >
-                        <h5 class="text-sm font-medium text-black uppercase">
-                          BDT
-                        </h5>
-                      </label>
+                    Referral Id:
+                    <span class="font-medium">BMP_00125679345</span>
+                  </p>
+                  <div class="flex flex-wrap justify-center items-center gap-3">
+                    <div class="flex items-center gap-2">
+                      <div
+                        class="border-[.5px] h-4 w-4 border-[#028FF0] p-[2px] rounded-full"
+                      >
+                        <div
+                          class="h-full w-full rounded-full bg-[#028FF0]"
+                        ></div>
+                      </div>
+                      <span class="text-black md:text-base text-sm"
+                        >Signup</span
+                      >
                     </div>
-                    <div
-                      class="option mb-2 py-2 px-3 group hover:bg-[#dcdfe5] transition-all ease-in-out bg-opacity-20"
-                    >
-                      <label class="flex items-center gap-2" for="grade-b">
-                        <span
-                          class="h-6 w-6 rounded-full bg-[#0DC1D9] text-white text-sm inline-block text-center leading-6"
-                          >$</span
-                        >
-                        <h5 class="text-sm font-medium text-black uppercase">
-                          USD
-                        </h5>
-                      </label>
+                    <div class="flex items-center gap-2">
+                      <div
+                        class="border-[.5px] h-4 w-4 border-[#028FF0] p-[2px] rounded-full"
+                      >
+                        <div
+                          class="h-full w-full rounded-full bg-[#028FF0]"
+                        ></div>
+                      </div>
+                      <span class="text-black md:text-base text-sm"
+                        >Profile Complete</span
+                      >
                     </div>
-                    <div
-                      class="option mb-2 py-2 px-3 group hover:bg-[#dcdfe5] transition-all ease-in-out bg-opacity-20"
-                    >
-                      <label class="flex items-center gap-2" for="grade-c">
-                        <span
-                          class="h-6 w-6 rounded-full bg-[#0DC1D9] text-white text-sm inline-block text-center leading-6"
-                          >₺</span
-                        >
-                        <h5 class="text-sm font-medium text-black uppercase">
-                          Turkiya
-                        </h5>
-                      </label>
-                    </div>
-                    <div
-                      class="option py-2 px-3 group hover:bg-[#dcdfe5] transition-all ease-in-out bg-opacity-20"
-                    >
-                      <label class="flex items-center gap-2" for="grade-d">
-                        <span
-                          class="h-6 w-6 rounded-full bg-[#0DC1D9] text-white text-sm inline-block text-center leading-6"
-                          >SR</span
-                        >
-                        <h5 class="text-sm font-medium text-black uppercase">
-                          Riyal
-                        </h5>
-                      </label>
-                    </div>
-                    <div
-                      class="option py-2 px-3 group hover:bg-[#dcdfe5] transition-all ease-in-out bg-opacity-20"
-                    >
-                      <label class="flex items-center gap-2" for="grade-e">
-                        <span
-                          class="h-6 w-6 rounded-full bg-[#0DC1D9] text-white text-sm inline-block text-center leading-6"
-                          >NR</span
-                        >
-                        <h5 class="text-sm font-medium text-black uppercase">
-                          Rupi
-                        </h5>
-                      </label>
-                    </div>
-                    <div
-                      class="option py-2 px-3 group hover:bg-[#dcdfe5] transition-all ease-in-out bg-opacity-20"
-                    >
-                      <label class="flex items-center gap-2" for="grade-f">
-                        <span
-                          class="h-6 w-6 rounded-full bg-[#0DC1D9] text-white text-sm inline-block text-center leading-6"
-                          >€</span
-                        >
-                        <h5 class="text-sm font-medium text-black uppercase">
-                          Euro
-                        </h5>
-                      </label>
+                    <div class="flex items-center gap-2">
+                      <div
+                        class="border-[.5px] h-4 w-4 border-[#028FF0] p-[2px] rounded-full"
+                      >
+                        <div
+                          class="h-full w-full rounded-full bg-[#028FF0]"
+                        ></div>
+                      </div>
+                      <span class="text-black md:text-base text-sm"
+                        >Buy products</span
+                      >
                     </div>
                   </div>
-                  <div
-                    class="selected flex items-center gap-2 h-[42px] rounded-md border border-[#0DC1D9] px-4 relative cursor-pointer"
+                  <hr
+                    class="border-t-0 h-[1px] horizontal my-3 bg-gradient-to-l from-transparent via-[#028ff0] to-transparent"
+                  />
+                  <div class="flex gap-2 justify-center items-center">
+                    <svg
+                      width="13"
+                      height="15"
+                      viewBox="0 0 13 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.40705 10.3475V10.13C7.54757 9.81878 6.86721 8.67138 6.66758 7.20602C7.55839 7.09655 8.3743 6.57136 9.03628 5.75452C9.02201 5.83212 9.01505 5.91087 9.0155 5.98974C9.01749 6.32822 9.20416 6.61648 9.51501 6.76104C9.64167 6.81997 9.77982 6.85059 9.91969 6.85072C10.1289 6.8519 10.332 6.78085 10.4942 6.64972C10.8552 6.3541 10.8944 5.98493 10.7466 5.77277C10.6214 5.59328 10.3939 5.54802 10.1931 5.66273C10.1465 5.68933 10.1098 5.73016 10.0885 5.77915C10.0671 5.82814 10.0623 5.88266 10.0747 5.9346C10.087 5.98655 10.1159 6.03314 10.1571 6.06743C10.1983 6.10173 10.2495 6.12191 10.3032 6.12497C10.2703 6.17974 10.2275 6.22795 10.1769 6.26712C10.0584 6.36415 9.87783 6.38225 9.7266 6.3121C9.64786 6.27546 9.51572 6.1848 9.51458 5.98677C9.51302 5.70728 9.6621 5.45876 9.98377 5.20459C10.2938 4.95961 10.7124 4.75579 11.0818 4.57601C11.3288 4.45578 11.5622 4.34206 11.7467 4.22523C12.0062 4.06115 12.2344 3.78265 12.3896 3.4412C12.5407 3.10839 12.6102 2.74445 12.5851 2.41644C12.5471 1.91785 12.3004 1.54415 11.889 1.36381C11.4523 1.1723 10.9919 1.31105 10.6207 1.74387C10.6791 1.2956 10.709 0.844104 10.7101 0.39209H1.92774C1.92889 0.867581 1.9619 1.34247 2.02656 1.8136C2.01346 1.79663 2.00017 1.78008 1.98669 1.76396C1.6132 1.31515 1.14458 1.16989 0.701312 1.36381C0.290366 1.54415 0.0430312 1.91785 0.00501228 2.41644C-0.0200489 2.74445 0.0494387 3.10839 0.20066 3.4412C0.355726 3.78265 0.58398 4.06115 0.84342 4.22523C1.02853 4.34206 1.26135 4.45578 1.5084 4.57601C1.87777 4.75579 2.2964 4.95961 2.60639 5.20459C2.92805 5.45919 3.07714 5.70728 3.07557 5.98677C3.07443 6.1848 2.94229 6.27532 2.86355 6.3121C2.71276 6.38282 2.53192 6.36415 2.4133 6.26712C2.36271 6.22791 2.31988 6.17971 2.287 6.12497C2.34065 6.12191 2.39187 6.10173 2.43304 6.06743C2.47421 6.03314 2.50313 5.98655 2.5155 5.9346C2.52787 5.88266 2.52303 5.82814 2.50169 5.77915C2.48035 5.73016 2.44366 5.68933 2.39707 5.66273C2.1963 5.54802 1.96875 5.59328 1.84359 5.77277C1.69578 5.98493 1.73495 6.3541 2.09605 6.64972C2.25842 6.78098 2.4617 6.85205 2.67104 6.85072C2.81086 6.85058 2.94895 6.81997 3.07557 6.76104C3.38642 6.61648 3.57309 6.32822 3.57509 5.98974C3.57592 5.88258 3.56281 5.77575 3.53607 5.67192C4.20945 6.536 5.05014 7.09287 5.97099 7.20602C5.77164 8.67138 5.091 9.81878 4.23152 10.13V10.3475H8.40705ZM2.91709 4.81703C2.56467 4.53853 2.11969 4.32198 1.72797 4.13131C1.49387 4.01731 1.27231 3.90967 1.11155 3.80768C0.736911 3.57048 0.463659 2.9634 0.502532 2.45435C0.519192 2.23681 0.602209 1.94967 0.9028 1.81785C1.22262 1.67754 1.4634 1.9303 1.54257 2.01332C1.70903 2.18801 1.8547 2.44218 1.94227 2.71064C2.00834 2.91333 2.01916 3.05718 2.01261 3.13328C1.95108 3.12443 1.88844 3.13872 1.83696 3.17335C1.78548 3.20798 1.74888 3.26046 1.73432 3.3205C1.71976 3.38054 1.7283 3.44382 1.75826 3.49794C1.78821 3.55206 1.83744 3.59311 1.89628 3.61306C2.10175 3.68293 2.29085 3.63187 2.40519 3.47713C2.56553 3.97561 2.7754 4.45701 3.03172 4.9142C2.99555 4.88125 2.95767 4.84886 2.91709 4.81675V4.81703ZM11.4786 3.80768C11.3176 3.90967 11.0964 4.01731 10.8622 4.13131C10.47 4.32226 10.0255 4.53853 9.67307 4.81703C9.66466 4.82368 9.65683 4.83117 9.64843 4.83726C9.87854 4.41561 10.0696 3.97404 10.2191 3.51801C10.3352 3.64036 10.5078 3.67614 10.6939 3.61292C10.7527 3.59297 10.8019 3.55191 10.8319 3.4978C10.8619 3.44368 10.8704 3.3804 10.8558 3.32036C10.8413 3.26032 10.8047 3.20784 10.7532 3.17321C10.7017 3.13858 10.6391 3.12429 10.5775 3.13314C10.571 3.05704 10.5818 2.91319 10.6479 2.7105C10.7355 2.44176 10.8811 2.18787 11.0476 2.01318C11.1268 1.93016 11.3675 1.67739 11.6874 1.81771C11.9881 1.94967 12.071 2.23681 12.0876 2.45421C12.1259 2.96312 11.8532 3.5702 11.4786 3.8074V3.80768Z"
+                        fill="#FFC728"
+                      />
+                      <path
+                        d="M9.30183 10.3018H3.28516V14.0926H9.30183V10.3018Z"
+                        fill="black"
+                      />
+                      <path
+                        d="M8.4774 10.8452H4.11719V13.327H8.4774V10.8452Z"
+                        fill="#FCDF65"
+                      />
+                      <path
+                        d="M9.86207 14.7692H2.73047V14.2034C2.73047 14.0977 2.77274 13.9963 2.84798 13.9215C2.92323 13.8468 3.0253 13.8047 3.13173 13.8047H9.46081C9.51352 13.8047 9.56571 13.815 9.6144 13.835C9.66309 13.8551 9.70733 13.8845 9.7446 13.9215C9.78186 13.9585 9.81142 14.0025 9.83157 14.0508C9.85173 14.0992 9.86209 14.1511 9.86207 14.2034V14.7692Z"
+                        fill="black"
+                      />
+                      <path
+                        d="M4.51304 5.57842C4.45738 5.58681 4.40047 5.5784 4.34968 5.55426C4.2989 5.53012 4.2566 5.49138 4.22826 5.44306C3.60942 4.38916 3.07971 3.10626 2.69654 1.7334C2.68523 1.69768 2.68127 1.66007 2.6849 1.6228C2.68853 1.58553 2.69967 1.54936 2.71767 1.51646C2.73566 1.48356 2.76014 1.45459 2.78964 1.43128C2.81914 1.40797 2.85306 1.39079 2.88938 1.38077C2.9257 1.37076 2.96368 1.36811 3.00106 1.37297C3.03843 1.37784 3.07444 1.39013 3.10693 1.40911C3.13943 1.42809 3.16774 1.45337 3.1902 1.48345C3.21265 1.51352 3.22878 1.54778 3.23763 1.58418C3.60785 2.91163 4.11847 4.14884 4.71325 5.16187C4.73628 5.20118 4.74929 5.24548 4.75116 5.29093C4.75303 5.33638 4.74371 5.38159 4.72399 5.42264C4.70427 5.46369 4.67477 5.49934 4.63803 5.52649C4.60129 5.55364 4.55844 5.57146 4.51319 5.57842H4.51304Z"
+                        fill="#FCDF65"
+                      />
+                      <path
+                        d="M10.7945 0H1.79707C1.68909 0 1.60156 0.0869476 1.60156 0.194203V0.198022C1.60156 0.305277 1.68909 0.392225 1.79707 0.392225H10.7945C10.9024 0.392225 10.99 0.305277 10.99 0.198022V0.194203C10.99 0.0869476 10.9024 0 10.7945 0Z"
+                        fill="#FDB92A"
+                      />
+                      <path
+                        d="M3.1999 1.04004L3.23835 1.58375L3.77076 1.45207L3.26213 1.65645L3.55275 2.11883L3.1999 1.70143L2.84705 2.11883L3.13768 1.65645L2.62891 1.45207L3.16146 1.58375L3.1999 1.04004Z"
+                        fill="white"
+                      />
+                    </svg>
+
+                    <span class="text-xs text-black text-opacity-70"
+                      >You’ve got a Reward!</span
+                    >
+                  </div>
+                </div>
+                <div
+                  class="bg-white shadow-bmpshadow rounded-md p-4 text-center"
+                >
+                  <h6 class="text-black md:text-base text-sm font-medium">
+                    Kety perry
+                  </h6>
+                  <p
+                    class="text-black md:text-base text-sm font-light py-[6px]"
                   >
-                    <div class="flex items-center gap-3 h-[40px]">
-                      <span
-                        class="h-6 w-6 rounded-full bg-[#0DC1D9] text-white text-sm inline-block text-center leading-6"
-                        >£</span
+                    Referral Id:
+                    <span class="font-medium">BMP_008736512426</span>
+                  </p>
+                  <div class="flex flex-wrap justify-center items-center gap-3">
+                    <div class="flex items-center gap-2">
+                      <div
+                        class="border-[.5px] h-4 w-4 border-[#028FF0] p-[2px] rounded-full"
                       >
-                      <h5 class="text-sm font-medium text-black uppercase">
-                        GBP
-                      </h5>
+                        <div
+                          class="h-full w-full rounded-full bg-[#028FF0]"
+                        ></div>
+                      </div>
+                      <span class="text-black md:text-base text-sm"
+                        >Signup</span
+                      >
                     </div>
+                    <div class="flex items-center gap-2">
+                      <div
+                        class="border-[.5px] h-4 w-4 border-[#028FF0] p-[2px] rounded-full"
+                      >
+                        <div
+                          class="h-full w-full rounded-full bg-[#028FF0]"
+                        ></div>
+                      </div>
+                      <span class="text-black md:text-base text-sm"
+                        >Profile Complete</span
+                      >
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <div
+                        class="border-[.5px] h-4 w-4 border-[#028FF0] p-[2px] rounded-full"
+                      >
+                        <div
+                          class="rounded-full bg-[#028FF0] w-full h-full hidden"
+                        ></div>
+                      </div>
+                      <span class="text-black md:text-base text-sm"
+                        >Buy products</span
+                      >
+                    </div>
+                  </div>
+                  <hr
+                    class="border-t-0 h-[1px] horizontal my-3 bg-gradient-to-l from-transparent via-[#028ff0] to-transparent"
+                  />
+                  <div class="flex gap-2 justify-center items-center">
+                    <p class="text-xs text-black text-opacity-70">
+                      She dosen’t buy any products in BMP.
+                      <span class="text-xs text-[#028FF0]">Remind</span>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="bg-white shadow-bmpshadow rounded-md p-4 text-center"
+                >
+                  <h6 class="text-black md:text-base text-sm font-medium">
+                    Selina Gomes
+                  </h6>
+                  <p
+                    class="text-black md:text-base text-sm font-light py-[6px]"
+                  >
+                    Referral Id:
+                    <span class="font-medium">BMP_00125679345</span>
+                  </p>
+                  <div class="flex flex-wrap justify-center items-center gap-3">
+                    <div class="flex items-center gap-2">
+                      <div
+                        class="border-[.5px] h-4 w-4 border-[#028FF0] p-[2px] rounded-full"
+                      >
+                        <div
+                          class="h-full w-full rounded-full bg-[#028FF0]"
+                        ></div>
+                      </div>
+                      <span class="text-black md:text-base text-sm"
+                        >Signup</span
+                      >
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <div
+                        class="border-[.5px] h-4 w-4 border-[#028FF0] p-[2px] rounded-full"
+                      >
+                        <div
+                          class="h-full w-full rounded-full bg-[#028FF0]"
+                        ></div>
+                      </div>
+                      <span class="text-black md:text-base text-sm"
+                        >Profile Complete</span
+                      >
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <div
+                        class="border-[.5px] h-4 w-4 border-[#028FF0] p-[2px] rounded-full"
+                      >
+                        <div
+                          class="h-full w-full rounded-full bg-[#028FF0]"
+                        ></div>
+                      </div>
+                      <span class="text-black md:text-base text-sm"
+                        >Buy products</span
+                      >
+                    </div>
+                  </div>
+                  <hr
+                    class="border-t-0 h-[1px] horizontal my-3 bg-gradient-to-l from-transparent via-[#028ff0] to-transparent"
+                  />
+                  <div class="flex gap-2 justify-center items-center">
+                    <svg
+                      width="13"
+                      height="15"
+                      viewBox="0 0 13 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.40705 10.3475V10.13C7.54757 9.81878 6.86721 8.67138 6.66758 7.20602C7.55839 7.09655 8.3743 6.57136 9.03628 5.75452C9.02201 5.83212 9.01505 5.91087 9.0155 5.98974C9.01749 6.32822 9.20416 6.61648 9.51501 6.76104C9.64167 6.81997 9.77982 6.85059 9.91969 6.85072C10.1289 6.8519 10.332 6.78085 10.4942 6.64972C10.8552 6.3541 10.8944 5.98493 10.7466 5.77277C10.6214 5.59328 10.3939 5.54802 10.1931 5.66273C10.1465 5.68933 10.1098 5.73016 10.0885 5.77915C10.0671 5.82814 10.0623 5.88266 10.0747 5.9346C10.087 5.98655 10.1159 6.03314 10.1571 6.06743C10.1983 6.10173 10.2495 6.12191 10.3032 6.12497C10.2703 6.17974 10.2275 6.22795 10.1769 6.26712C10.0584 6.36415 9.87783 6.38225 9.7266 6.3121C9.64786 6.27546 9.51572 6.1848 9.51458 5.98677C9.51302 5.70728 9.6621 5.45876 9.98377 5.20459C10.2938 4.95961 10.7124 4.75579 11.0818 4.57601C11.3288 4.45578 11.5622 4.34206 11.7467 4.22523C12.0062 4.06115 12.2344 3.78265 12.3896 3.4412C12.5407 3.10839 12.6102 2.74445 12.5851 2.41644C12.5471 1.91785 12.3004 1.54415 11.889 1.36381C11.4523 1.1723 10.9919 1.31105 10.6207 1.74387C10.6791 1.2956 10.709 0.844104 10.7101 0.39209H1.92774C1.92889 0.867581 1.9619 1.34247 2.02656 1.8136C2.01346 1.79663 2.00017 1.78008 1.98669 1.76396C1.6132 1.31515 1.14458 1.16989 0.701312 1.36381C0.290366 1.54415 0.0430312 1.91785 0.00501228 2.41644C-0.0200489 2.74445 0.0494387 3.10839 0.20066 3.4412C0.355726 3.78265 0.58398 4.06115 0.84342 4.22523C1.02853 4.34206 1.26135 4.45578 1.5084 4.57601C1.87777 4.75579 2.2964 4.95961 2.60639 5.20459C2.92805 5.45919 3.07714 5.70728 3.07557 5.98677C3.07443 6.1848 2.94229 6.27532 2.86355 6.3121C2.71276 6.38282 2.53192 6.36415 2.4133 6.26712C2.36271 6.22791 2.31988 6.17971 2.287 6.12497C2.34065 6.12191 2.39187 6.10173 2.43304 6.06743C2.47421 6.03314 2.50313 5.98655 2.5155 5.9346C2.52787 5.88266 2.52303 5.82814 2.50169 5.77915C2.48035 5.73016 2.44366 5.68933 2.39707 5.66273C2.1963 5.54802 1.96875 5.59328 1.84359 5.77277C1.69578 5.98493 1.73495 6.3541 2.09605 6.64972C2.25842 6.78098 2.4617 6.85205 2.67104 6.85072C2.81086 6.85058 2.94895 6.81997 3.07557 6.76104C3.38642 6.61648 3.57309 6.32822 3.57509 5.98974C3.57592 5.88258 3.56281 5.77575 3.53607 5.67192C4.20945 6.536 5.05014 7.09287 5.97099 7.20602C5.77164 8.67138 5.091 9.81878 4.23152 10.13V10.3475H8.40705ZM2.91709 4.81703C2.56467 4.53853 2.11969 4.32198 1.72797 4.13131C1.49387 4.01731 1.27231 3.90967 1.11155 3.80768C0.736911 3.57048 0.463659 2.9634 0.502532 2.45435C0.519192 2.23681 0.602209 1.94967 0.9028 1.81785C1.22262 1.67754 1.4634 1.9303 1.54257 2.01332C1.70903 2.18801 1.8547 2.44218 1.94227 2.71064C2.00834 2.91333 2.01916 3.05718 2.01261 3.13328C1.95108 3.12443 1.88844 3.13872 1.83696 3.17335C1.78548 3.20798 1.74888 3.26046 1.73432 3.3205C1.71976 3.38054 1.7283 3.44382 1.75826 3.49794C1.78821 3.55206 1.83744 3.59311 1.89628 3.61306C2.10175 3.68293 2.29085 3.63187 2.40519 3.47713C2.56553 3.97561 2.7754 4.45701 3.03172 4.9142C2.99555 4.88125 2.95767 4.84886 2.91709 4.81675V4.81703ZM11.4786 3.80768C11.3176 3.90967 11.0964 4.01731 10.8622 4.13131C10.47 4.32226 10.0255 4.53853 9.67307 4.81703C9.66466 4.82368 9.65683 4.83117 9.64843 4.83726C9.87854 4.41561 10.0696 3.97404 10.2191 3.51801C10.3352 3.64036 10.5078 3.67614 10.6939 3.61292C10.7527 3.59297 10.8019 3.55191 10.8319 3.4978C10.8619 3.44368 10.8704 3.3804 10.8558 3.32036C10.8413 3.26032 10.8047 3.20784 10.7532 3.17321C10.7017 3.13858 10.6391 3.12429 10.5775 3.13314C10.571 3.05704 10.5818 2.91319 10.6479 2.7105C10.7355 2.44176 10.8811 2.18787 11.0476 2.01318C11.1268 1.93016 11.3675 1.67739 11.6874 1.81771C11.9881 1.94967 12.071 2.23681 12.0876 2.45421C12.1259 2.96312 11.8532 3.5702 11.4786 3.8074V3.80768Z"
+                        fill="#FFC728"
+                      />
+                      <path
+                        d="M9.30183 10.3018H3.28516V14.0926H9.30183V10.3018Z"
+                        fill="black"
+                      />
+                      <path
+                        d="M8.4774 10.8452H4.11719V13.327H8.4774V10.8452Z"
+                        fill="#FCDF65"
+                      />
+                      <path
+                        d="M9.86207 14.7692H2.73047V14.2034C2.73047 14.0977 2.77274 13.9963 2.84798 13.9215C2.92323 13.8468 3.0253 13.8047 3.13173 13.8047H9.46081C9.51352 13.8047 9.56571 13.815 9.6144 13.835C9.66309 13.8551 9.70733 13.8845 9.7446 13.9215C9.78186 13.9585 9.81142 14.0025 9.83157 14.0508C9.85173 14.0992 9.86209 14.1511 9.86207 14.2034V14.7692Z"
+                        fill="black"
+                      />
+                      <path
+                        d="M4.51304 5.57842C4.45738 5.58681 4.40047 5.5784 4.34968 5.55426C4.2989 5.53012 4.2566 5.49138 4.22826 5.44306C3.60942 4.38916 3.07971 3.10626 2.69654 1.7334C2.68523 1.69768 2.68127 1.66007 2.6849 1.6228C2.68853 1.58553 2.69967 1.54936 2.71767 1.51646C2.73566 1.48356 2.76014 1.45459 2.78964 1.43128C2.81914 1.40797 2.85306 1.39079 2.88938 1.38077C2.9257 1.37076 2.96368 1.36811 3.00106 1.37297C3.03843 1.37784 3.07444 1.39013 3.10693 1.40911C3.13943 1.42809 3.16774 1.45337 3.1902 1.48345C3.21265 1.51352 3.22878 1.54778 3.23763 1.58418C3.60785 2.91163 4.11847 4.14884 4.71325 5.16187C4.73628 5.20118 4.74929 5.24548 4.75116 5.29093C4.75303 5.33638 4.74371 5.38159 4.72399 5.42264C4.70427 5.46369 4.67477 5.49934 4.63803 5.52649C4.60129 5.55364 4.55844 5.57146 4.51319 5.57842H4.51304Z"
+                        fill="#FCDF65"
+                      />
+                      <path
+                        d="M10.7945 0H1.79707C1.68909 0 1.60156 0.0869476 1.60156 0.194203V0.198022C1.60156 0.305277 1.68909 0.392225 1.79707 0.392225H10.7945C10.9024 0.392225 10.99 0.305277 10.99 0.198022V0.194203C10.99 0.0869476 10.9024 0 10.7945 0Z"
+                        fill="#FDB92A"
+                      />
+                      <path
+                        d="M3.1999 1.04004L3.23835 1.58375L3.77076 1.45207L3.26213 1.65645L3.55275 2.11883L3.1999 1.70143L2.84705 2.11883L3.13768 1.65645L2.62891 1.45207L3.16146 1.58375L3.1999 1.04004Z"
+                        fill="white"
+                      />
+                    </svg>
+
+                    <span class="text-xs text-black text-opacity-70"
+                      >You’ve got a Reward!</span
+                    >
+                  </div>
+                </div>
+                <div
+                  class="bg-white shadow-bmpshadow rounded-md p-4 text-center"
+                >
+                  <h6 class="text-black md:text-base text-sm font-medium">
+                    Been Sayed
+                  </h6>
+                  <p
+                    class="text-black md:text-base text-sm font-light py-[6px]"
+                  >
+                    Referral Id:
+                    <span class="font-medium">BMP_00125679345</span>
+                  </p>
+                  <div class="flex flex-wrap justify-center items-center gap-3">
+                    <div class="flex items-center gap-2">
+                      <div
+                        class="border-[.5px] h-4 w-4 border-[#028FF0] p-[2px] rounded-full"
+                      >
+                        <div
+                          class="h-full w-full rounded-full bg-[#028FF0]"
+                        ></div>
+                      </div>
+                      <span class="text-black md:text-base text-sm"
+                        >Signup</span
+                      >
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <div
+                        class="border-[.5px] h-4 w-4 border-[#028FF0] p-[2px] rounded-full"
+                      >
+                        <div
+                          class="h-full w-full rounded-full bg-[#028FF0]"
+                        ></div>
+                      </div>
+                      <span class="text-black md:text-base text-sm"
+                        >Profile Complete</span
+                      >
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <div
+                        class="border-[.5px] h-4 w-4 border-[#028FF0] p-[2px] rounded-full"
+                      >
+                        <div
+                          class="h-full w-full rounded-full bg-[#028FF0]"
+                        ></div>
+                      </div>
+                      <span class="text-black md:text-base text-sm"
+                        >Buy products</span
+                      >
+                    </div>
+                  </div>
+                  <hr
+                    class="border-t-0 h-[1px] horizontal my-3 bg-gradient-to-l from-transparent via-[#028ff0] to-transparent"
+                  />
+                  <div class="flex gap-2 justify-center items-center">
+                    <svg
+                      width="13"
+                      height="15"
+                      viewBox="0 0 13 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.40705 10.3475V10.13C7.54757 9.81878 6.86721 8.67138 6.66758 7.20602C7.55839 7.09655 8.3743 6.57136 9.03628 5.75452C9.02201 5.83212 9.01505 5.91087 9.0155 5.98974C9.01749 6.32822 9.20416 6.61648 9.51501 6.76104C9.64167 6.81997 9.77982 6.85059 9.91969 6.85072C10.1289 6.8519 10.332 6.78085 10.4942 6.64972C10.8552 6.3541 10.8944 5.98493 10.7466 5.77277C10.6214 5.59328 10.3939 5.54802 10.1931 5.66273C10.1465 5.68933 10.1098 5.73016 10.0885 5.77915C10.0671 5.82814 10.0623 5.88266 10.0747 5.9346C10.087 5.98655 10.1159 6.03314 10.1571 6.06743C10.1983 6.10173 10.2495 6.12191 10.3032 6.12497C10.2703 6.17974 10.2275 6.22795 10.1769 6.26712C10.0584 6.36415 9.87783 6.38225 9.7266 6.3121C9.64786 6.27546 9.51572 6.1848 9.51458 5.98677C9.51302 5.70728 9.6621 5.45876 9.98377 5.20459C10.2938 4.95961 10.7124 4.75579 11.0818 4.57601C11.3288 4.45578 11.5622 4.34206 11.7467 4.22523C12.0062 4.06115 12.2344 3.78265 12.3896 3.4412C12.5407 3.10839 12.6102 2.74445 12.5851 2.41644C12.5471 1.91785 12.3004 1.54415 11.889 1.36381C11.4523 1.1723 10.9919 1.31105 10.6207 1.74387C10.6791 1.2956 10.709 0.844104 10.7101 0.39209H1.92774C1.92889 0.867581 1.9619 1.34247 2.02656 1.8136C2.01346 1.79663 2.00017 1.78008 1.98669 1.76396C1.6132 1.31515 1.14458 1.16989 0.701312 1.36381C0.290366 1.54415 0.0430312 1.91785 0.00501228 2.41644C-0.0200489 2.74445 0.0494387 3.10839 0.20066 3.4412C0.355726 3.78265 0.58398 4.06115 0.84342 4.22523C1.02853 4.34206 1.26135 4.45578 1.5084 4.57601C1.87777 4.75579 2.2964 4.95961 2.60639 5.20459C2.92805 5.45919 3.07714 5.70728 3.07557 5.98677C3.07443 6.1848 2.94229 6.27532 2.86355 6.3121C2.71276 6.38282 2.53192 6.36415 2.4133 6.26712C2.36271 6.22791 2.31988 6.17971 2.287 6.12497C2.34065 6.12191 2.39187 6.10173 2.43304 6.06743C2.47421 6.03314 2.50313 5.98655 2.5155 5.9346C2.52787 5.88266 2.52303 5.82814 2.50169 5.77915C2.48035 5.73016 2.44366 5.68933 2.39707 5.66273C2.1963 5.54802 1.96875 5.59328 1.84359 5.77277C1.69578 5.98493 1.73495 6.3541 2.09605 6.64972C2.25842 6.78098 2.4617 6.85205 2.67104 6.85072C2.81086 6.85058 2.94895 6.81997 3.07557 6.76104C3.38642 6.61648 3.57309 6.32822 3.57509 5.98974C3.57592 5.88258 3.56281 5.77575 3.53607 5.67192C4.20945 6.536 5.05014 7.09287 5.97099 7.20602C5.77164 8.67138 5.091 9.81878 4.23152 10.13V10.3475H8.40705ZM2.91709 4.81703C2.56467 4.53853 2.11969 4.32198 1.72797 4.13131C1.49387 4.01731 1.27231 3.90967 1.11155 3.80768C0.736911 3.57048 0.463659 2.9634 0.502532 2.45435C0.519192 2.23681 0.602209 1.94967 0.9028 1.81785C1.22262 1.67754 1.4634 1.9303 1.54257 2.01332C1.70903 2.18801 1.8547 2.44218 1.94227 2.71064C2.00834 2.91333 2.01916 3.05718 2.01261 3.13328C1.95108 3.12443 1.88844 3.13872 1.83696 3.17335C1.78548 3.20798 1.74888 3.26046 1.73432 3.3205C1.71976 3.38054 1.7283 3.44382 1.75826 3.49794C1.78821 3.55206 1.83744 3.59311 1.89628 3.61306C2.10175 3.68293 2.29085 3.63187 2.40519 3.47713C2.56553 3.97561 2.7754 4.45701 3.03172 4.9142C2.99555 4.88125 2.95767 4.84886 2.91709 4.81675V4.81703ZM11.4786 3.80768C11.3176 3.90967 11.0964 4.01731 10.8622 4.13131C10.47 4.32226 10.0255 4.53853 9.67307 4.81703C9.66466 4.82368 9.65683 4.83117 9.64843 4.83726C9.87854 4.41561 10.0696 3.97404 10.2191 3.51801C10.3352 3.64036 10.5078 3.67614 10.6939 3.61292C10.7527 3.59297 10.8019 3.55191 10.8319 3.4978C10.8619 3.44368 10.8704 3.3804 10.8558 3.32036C10.8413 3.26032 10.8047 3.20784 10.7532 3.17321C10.7017 3.13858 10.6391 3.12429 10.5775 3.13314C10.571 3.05704 10.5818 2.91319 10.6479 2.7105C10.7355 2.44176 10.8811 2.18787 11.0476 2.01318C11.1268 1.93016 11.3675 1.67739 11.6874 1.81771C11.9881 1.94967 12.071 2.23681 12.0876 2.45421C12.1259 2.96312 11.8532 3.5702 11.4786 3.8074V3.80768Z"
+                        fill="#FFC728"
+                      />
+                      <path
+                        d="M9.30183 10.3018H3.28516V14.0926H9.30183V10.3018Z"
+                        fill="black"
+                      />
+                      <path
+                        d="M8.4774 10.8452H4.11719V13.327H8.4774V10.8452Z"
+                        fill="#FCDF65"
+                      />
+                      <path
+                        d="M9.86207 14.7692H2.73047V14.2034C2.73047 14.0977 2.77274 13.9963 2.84798 13.9215C2.92323 13.8468 3.0253 13.8047 3.13173 13.8047H9.46081C9.51352 13.8047 9.56571 13.815 9.6144 13.835C9.66309 13.8551 9.70733 13.8845 9.7446 13.9215C9.78186 13.9585 9.81142 14.0025 9.83157 14.0508C9.85173 14.0992 9.86209 14.1511 9.86207 14.2034V14.7692Z"
+                        fill="black"
+                      />
+                      <path
+                        d="M4.51304 5.57842C4.45738 5.58681 4.40047 5.5784 4.34968 5.55426C4.2989 5.53012 4.2566 5.49138 4.22826 5.44306C3.60942 4.38916 3.07971 3.10626 2.69654 1.7334C2.68523 1.69768 2.68127 1.66007 2.6849 1.6228C2.68853 1.58553 2.69967 1.54936 2.71767 1.51646C2.73566 1.48356 2.76014 1.45459 2.78964 1.43128C2.81914 1.40797 2.85306 1.39079 2.88938 1.38077C2.9257 1.37076 2.96368 1.36811 3.00106 1.37297C3.03843 1.37784 3.07444 1.39013 3.10693 1.40911C3.13943 1.42809 3.16774 1.45337 3.1902 1.48345C3.21265 1.51352 3.22878 1.54778 3.23763 1.58418C3.60785 2.91163 4.11847 4.14884 4.71325 5.16187C4.73628 5.20118 4.74929 5.24548 4.75116 5.29093C4.75303 5.33638 4.74371 5.38159 4.72399 5.42264C4.70427 5.46369 4.67477 5.49934 4.63803 5.52649C4.60129 5.55364 4.55844 5.57146 4.51319 5.57842H4.51304Z"
+                        fill="#FCDF65"
+                      />
+                      <path
+                        d="M10.7945 0H1.79707C1.68909 0 1.60156 0.0869476 1.60156 0.194203V0.198022C1.60156 0.305277 1.68909 0.392225 1.79707 0.392225H10.7945C10.9024 0.392225 10.99 0.305277 10.99 0.198022V0.194203C10.99 0.0869476 10.9024 0 10.7945 0Z"
+                        fill="#FDB92A"
+                      />
+                      <path
+                        d="M3.1999 1.04004L3.23835 1.58375L3.77076 1.45207L3.26213 1.65645L3.55275 2.11883L3.1999 1.70143L2.84705 2.11883L3.13768 1.65645L2.62891 1.45207L3.16146 1.58375L3.1999 1.04004Z"
+                        fill="white"
+                      />
+                    </svg>
+
+                    <span class="text-xs text-black text-opacity-70"
+                      >You’ve got a Reward!</span
+                    >
+                  </div>
+                </div>
+                <div
+                  class="bg-white shadow-bmpshadow rounded-md p-4 text-center"
+                >
+                  <h6 class="text-black md:text-base text-sm font-medium">
+                    Neayon Alo
+                  </h6>
+                  <p
+                    class="text-black md:text-base text-sm font-light py-[6px]"
+                  >
+                    Referral Id:
+                    <span class="font-medium">BMP_008736512426</span>
+                  </p>
+                  <div class="flex flex-wrap justify-center items-center gap-3">
+                    <div class="flex items-center gap-2">
+                      <div
+                        class="border-[.5px] h-4 w-4 border-[#028FF0] p-[2px] rounded-full"
+                      >
+                        <div
+                          class="h-full w-full rounded-full bg-[#028FF0]"
+                        ></div>
+                      </div>
+                      <span class="text-black md:text-base text-sm"
+                        >Signup</span
+                      >
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <div
+                        class="border-[.5px] h-4 w-4 border-[#028FF0] p-[2px] rounded-full"
+                      >
+                        <div
+                          class="h-full w-full rounded-full bg-[#028FF0]"
+                        ></div>
+                      </div>
+                      <span class="text-black md:text-base text-sm"
+                        >Profile Complete</span
+                      >
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <div
+                        class="border-[.5px] h-4 w-4 border-[#028FF0] p-[2px] rounded-full"
+                      >
+                        <div
+                          class="h-full w-full rounded-full bg-[#028FF0] hidden"
+                        ></div>
+                      </div>
+                      <span class="text-black md:text-base text-sm"
+                        >Buy products</span
+                      >
+                    </div>
+                  </div>
+                  <hr
+                    class="border-t-0 h-[1px] horizontal my-3 bg-gradient-to-l from-transparent via-[#028ff0] to-transparent"
+                  />
+                  <div class="flex gap-2 justify-center items-center">
+                    <p class="text-xs text-black text-opacity-70">
+                      She dosen’t buy any products in BMP.
+                      <span class="text-xs text-[#028FF0]">Remind</span>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="bg-white shadow-bmpshadow rounded-md p-4 text-center"
+                >
+                  <h6 class="text-black md:text-base text-sm font-medium">
+                    Jony Been
+                  </h6>
+                  <p
+                    class="text-black md:text-base text-sm font-light py-[6px]"
+                  >
+                    Referral Id:
+                    <span class="font-medium">BMP_00125679345</span>
+                  </p>
+                  <div class="flex flex-wrap justify-center items-center gap-3">
+                    <div class="flex items-center gap-2">
+                      <div
+                        class="border-[.5px] h-4 w-4 border-[#028FF0] p-[2px] rounded-full"
+                      >
+                        <div
+                          class="h-full w-full rounded-full bg-[#028FF0]"
+                        ></div>
+                      </div>
+                      <span class="text-black md:text-base text-sm"
+                        >Signup</span
+                      >
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <div
+                        class="border-[.5px] h-4 w-4 border-[#028FF0] p-[2px] rounded-full"
+                      >
+                        <div
+                          class="h-full w-full rounded-full bg-[#028FF0]"
+                        ></div>
+                      </div>
+                      <span class="text-black md:text-base text-sm"
+                        >Profile Complete</span
+                      >
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <div
+                        class="border-[.5px] h-4 w-4 border-[#028FF0] p-[2px] rounded-full"
+                      >
+                        <div
+                          class="h-full w-full rounded-full bg-[#028FF0]"
+                        ></div>
+                      </div>
+                      <span class="text-black md:text-base text-sm"
+                        >Buy products</span
+                      >
+                    </div>
+                  </div>
+                  <hr
+                    class="border-t-0 h-[1px] horizontal my-3 bg-gradient-to-l from-transparent via-[#028ff0] to-transparent"
+                  />
+                  <div class="flex gap-2 justify-center items-center">
+                    <svg
+                      width="13"
+                      height="15"
+                      viewBox="0 0 13 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.40705 10.3475V10.13C7.54757 9.81878 6.86721 8.67138 6.66758 7.20602C7.55839 7.09655 8.3743 6.57136 9.03628 5.75452C9.02201 5.83212 9.01505 5.91087 9.0155 5.98974C9.01749 6.32822 9.20416 6.61648 9.51501 6.76104C9.64167 6.81997 9.77982 6.85059 9.91969 6.85072C10.1289 6.8519 10.332 6.78085 10.4942 6.64972C10.8552 6.3541 10.8944 5.98493 10.7466 5.77277C10.6214 5.59328 10.3939 5.54802 10.1931 5.66273C10.1465 5.68933 10.1098 5.73016 10.0885 5.77915C10.0671 5.82814 10.0623 5.88266 10.0747 5.9346C10.087 5.98655 10.1159 6.03314 10.1571 6.06743C10.1983 6.10173 10.2495 6.12191 10.3032 6.12497C10.2703 6.17974 10.2275 6.22795 10.1769 6.26712C10.0584 6.36415 9.87783 6.38225 9.7266 6.3121C9.64786 6.27546 9.51572 6.1848 9.51458 5.98677C9.51302 5.70728 9.6621 5.45876 9.98377 5.20459C10.2938 4.95961 10.7124 4.75579 11.0818 4.57601C11.3288 4.45578 11.5622 4.34206 11.7467 4.22523C12.0062 4.06115 12.2344 3.78265 12.3896 3.4412C12.5407 3.10839 12.6102 2.74445 12.5851 2.41644C12.5471 1.91785 12.3004 1.54415 11.889 1.36381C11.4523 1.1723 10.9919 1.31105 10.6207 1.74387C10.6791 1.2956 10.709 0.844104 10.7101 0.39209H1.92774C1.92889 0.867581 1.9619 1.34247 2.02656 1.8136C2.01346 1.79663 2.00017 1.78008 1.98669 1.76396C1.6132 1.31515 1.14458 1.16989 0.701312 1.36381C0.290366 1.54415 0.0430312 1.91785 0.00501228 2.41644C-0.0200489 2.74445 0.0494387 3.10839 0.20066 3.4412C0.355726 3.78265 0.58398 4.06115 0.84342 4.22523C1.02853 4.34206 1.26135 4.45578 1.5084 4.57601C1.87777 4.75579 2.2964 4.95961 2.60639 5.20459C2.92805 5.45919 3.07714 5.70728 3.07557 5.98677C3.07443 6.1848 2.94229 6.27532 2.86355 6.3121C2.71276 6.38282 2.53192 6.36415 2.4133 6.26712C2.36271 6.22791 2.31988 6.17971 2.287 6.12497C2.34065 6.12191 2.39187 6.10173 2.43304 6.06743C2.47421 6.03314 2.50313 5.98655 2.5155 5.9346C2.52787 5.88266 2.52303 5.82814 2.50169 5.77915C2.48035 5.73016 2.44366 5.68933 2.39707 5.66273C2.1963 5.54802 1.96875 5.59328 1.84359 5.77277C1.69578 5.98493 1.73495 6.3541 2.09605 6.64972C2.25842 6.78098 2.4617 6.85205 2.67104 6.85072C2.81086 6.85058 2.94895 6.81997 3.07557 6.76104C3.38642 6.61648 3.57309 6.32822 3.57509 5.98974C3.57592 5.88258 3.56281 5.77575 3.53607 5.67192C4.20945 6.536 5.05014 7.09287 5.97099 7.20602C5.77164 8.67138 5.091 9.81878 4.23152 10.13V10.3475H8.40705ZM2.91709 4.81703C2.56467 4.53853 2.11969 4.32198 1.72797 4.13131C1.49387 4.01731 1.27231 3.90967 1.11155 3.80768C0.736911 3.57048 0.463659 2.9634 0.502532 2.45435C0.519192 2.23681 0.602209 1.94967 0.9028 1.81785C1.22262 1.67754 1.4634 1.9303 1.54257 2.01332C1.70903 2.18801 1.8547 2.44218 1.94227 2.71064C2.00834 2.91333 2.01916 3.05718 2.01261 3.13328C1.95108 3.12443 1.88844 3.13872 1.83696 3.17335C1.78548 3.20798 1.74888 3.26046 1.73432 3.3205C1.71976 3.38054 1.7283 3.44382 1.75826 3.49794C1.78821 3.55206 1.83744 3.59311 1.89628 3.61306C2.10175 3.68293 2.29085 3.63187 2.40519 3.47713C2.56553 3.97561 2.7754 4.45701 3.03172 4.9142C2.99555 4.88125 2.95767 4.84886 2.91709 4.81675V4.81703ZM11.4786 3.80768C11.3176 3.90967 11.0964 4.01731 10.8622 4.13131C10.47 4.32226 10.0255 4.53853 9.67307 4.81703C9.66466 4.82368 9.65683 4.83117 9.64843 4.83726C9.87854 4.41561 10.0696 3.97404 10.2191 3.51801C10.3352 3.64036 10.5078 3.67614 10.6939 3.61292C10.7527 3.59297 10.8019 3.55191 10.8319 3.4978C10.8619 3.44368 10.8704 3.3804 10.8558 3.32036C10.8413 3.26032 10.8047 3.20784 10.7532 3.17321C10.7017 3.13858 10.6391 3.12429 10.5775 3.13314C10.571 3.05704 10.5818 2.91319 10.6479 2.7105C10.7355 2.44176 10.8811 2.18787 11.0476 2.01318C11.1268 1.93016 11.3675 1.67739 11.6874 1.81771C11.9881 1.94967 12.071 2.23681 12.0876 2.45421C12.1259 2.96312 11.8532 3.5702 11.4786 3.8074V3.80768Z"
+                        fill="#FFC728"
+                      />
+                      <path
+                        d="M9.30183 10.3018H3.28516V14.0926H9.30183V10.3018Z"
+                        fill="black"
+                      />
+                      <path
+                        d="M8.4774 10.8452H4.11719V13.327H8.4774V10.8452Z"
+                        fill="#FCDF65"
+                      />
+                      <path
+                        d="M9.86207 14.7692H2.73047V14.2034C2.73047 14.0977 2.77274 13.9963 2.84798 13.9215C2.92323 13.8468 3.0253 13.8047 3.13173 13.8047H9.46081C9.51352 13.8047 9.56571 13.815 9.6144 13.835C9.66309 13.8551 9.70733 13.8845 9.7446 13.9215C9.78186 13.9585 9.81142 14.0025 9.83157 14.0508C9.85173 14.0992 9.86209 14.1511 9.86207 14.2034V14.7692Z"
+                        fill="black"
+                      />
+                      <path
+                        d="M4.51304 5.57842C4.45738 5.58681 4.40047 5.5784 4.34968 5.55426C4.2989 5.53012 4.2566 5.49138 4.22826 5.44306C3.60942 4.38916 3.07971 3.10626 2.69654 1.7334C2.68523 1.69768 2.68127 1.66007 2.6849 1.6228C2.68853 1.58553 2.69967 1.54936 2.71767 1.51646C2.73566 1.48356 2.76014 1.45459 2.78964 1.43128C2.81914 1.40797 2.85306 1.39079 2.88938 1.38077C2.9257 1.37076 2.96368 1.36811 3.00106 1.37297C3.03843 1.37784 3.07444 1.39013 3.10693 1.40911C3.13943 1.42809 3.16774 1.45337 3.1902 1.48345C3.21265 1.51352 3.22878 1.54778 3.23763 1.58418C3.60785 2.91163 4.11847 4.14884 4.71325 5.16187C4.73628 5.20118 4.74929 5.24548 4.75116 5.29093C4.75303 5.33638 4.74371 5.38159 4.72399 5.42264C4.70427 5.46369 4.67477 5.49934 4.63803 5.52649C4.60129 5.55364 4.55844 5.57146 4.51319 5.57842H4.51304Z"
+                        fill="#FCDF65"
+                      />
+                      <path
+                        d="M10.7945 0H1.79707C1.68909 0 1.60156 0.0869476 1.60156 0.194203V0.198022C1.60156 0.305277 1.68909 0.392225 1.79707 0.392225H10.7945C10.9024 0.392225 10.99 0.305277 10.99 0.198022V0.194203C10.99 0.0869476 10.9024 0 10.7945 0Z"
+                        fill="#FDB92A"
+                      />
+                      <path
+                        d="M3.1999 1.04004L3.23835 1.58375L3.77076 1.45207L3.26213 1.65645L3.55275 2.11883L3.1999 1.70143L2.84705 2.11883L3.13768 1.65645L2.62891 1.45207L3.16146 1.58375L3.1999 1.04004Z"
+                        fill="white"
+                      />
+                    </svg>
+
+                    <span class="text-xs text-black text-opacity-70"
+                      >You’ve got a Reward!</span
+                    >
                   </div>
                 </div>
               </div>
-              <div class="mt-4">
-                <h4
-                  class="text-black lg:text-xl md:text-lg text-base font-normal pb-3"
-                >
-                  Withdraw to
-                </h4>
-                <div class="flex items-center gap-3">
-                  <button type="button" class="bmp_btn w-[50%] py-2">
-                    Approve
-                  </button>
-                  <button
-                    type="button"
-                    class="bg-[#E6E6E6] text-black w-[50%] py-2 rounded-md"
-                  >
-                    Other Bank
-                  </button>
-                </div>
-                <div class="tran-item mt-5">
-                  <div class="input-group flex items-baseline gap-3">
-                    <input
-                      type="checkbox"
-                      class="h-5 w-5 rounded-[4px] text-[#028FF0] focus:ring-0 focus-visible:border-0 focus:ring-offset-0"
-                      id="bankId"
-                      checked
-                    />
-                    <label
-                      class="lg:text-base text-sm font-normal text-black flex items-baseline gap-3"
-                      for="bankId"
-                    >
-                      <svg
-                        width="15"
-                        height="16"
-                        viewBox="0 0 15 16"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M1.76375 13.675V12.9496C1.76375 12.5919 1.82638 12.526 2.18356 12.4998C2.21416 12.4955 2.24448 12.4895 2.2744 12.4819V8.02598C2.2112 8.02207 2.15703 8.01817 2.10512 8.01538C1.87941 8.00422 1.77333 7.90378 1.76656 7.67666C1.75922 7.37811 1.75866 7.079 1.75471 6.77989C1.75471 6.77375 1.74906 6.76817 1.7327 6.73581C1.33771 6.73581 0.933707 6.73915 0.526867 6.73581C0.337272 6.73581 0.113809 6.79161 0.0218329 6.54384C-0.0661935 6.30668 0.131296 6.20901 0.270107 6.08848C2.58136 4.11191 4.89375 2.13627 7.20726 0.161566C7.45667 -0.0516043 7.54244 -0.0538294 7.78677 0.154877C10.1217 2.14781 12.4559 4.14093 14.7894 6.13424C14.8108 6.1521 14.8306 6.17219 14.8531 6.19004C14.9778 6.28491 15.0343 6.40768 14.9784 6.55668C14.9226 6.70567 14.7996 6.73916 14.654 6.7386C14.2663 6.7386 13.8792 6.7386 13.4916 6.7386H13.2348V7.46405C13.2348 7.96628 13.223 7.97855 12.727 8.0338V12.4702C12.7422 12.4802 12.7524 12.4931 12.7642 12.4942C13.21 12.5383 13.2371 12.5684 13.2376 13.0232V13.6778C13.5198 13.6778 13.7861 13.6778 14.0508 13.6778C14.4091 13.6778 14.4847 13.7537 14.4852 14.1064C14.4852 14.4897 14.4852 14.8725 14.4852 15.2554C14.4852 15.5344 14.3899 15.6259 14.1027 15.6259C9.70135 15.6259 5.30003 15.6259 0.898714 15.6259C0.620528 15.6259 0.528546 15.5383 0.526289 15.2671C0.522903 14.8578 0.522903 14.4469 0.526289 14.0344C0.526289 13.7754 0.62222 13.6828 0.884607 13.6789C1.16561 13.6716 1.45283 13.675 1.76375 13.675ZM1.09395 6.14484H13.9063C11.7491 4.30332 9.628 2.49193 7.49956 0.676075L1.09395 6.14484ZM9.0801 6.7464C9.0801 7.06616 9.08293 7.36416 9.0801 7.66215C9.07728 7.91717 8.98246 8.00645 8.72008 8.01538C8.67324 8.01538 8.62642 8.02041 8.57959 8.0232V12.4875C9.06317 12.531 9.08123 12.5505 9.08123 13.0232V13.6627H10.067C10.067 13.3837 10.0625 13.1114 10.067 12.8418C10.0721 12.6086 10.1652 12.5187 10.4005 12.5014L10.5726 12.4892V8.02488C10.0828 7.98302 10.0647 7.96405 10.0647 7.47688V6.74361L9.0801 6.7464ZM6.42238 12.4886V8.02933C5.93823 7.98413 5.91453 7.95512 5.91453 7.47632V6.75087H4.95075C4.94477 6.76909 4.94023 6.78775 4.9372 6.80668C4.9372 7.04403 4.93627 7.28082 4.93439 7.51706C4.93439 7.95121 4.90391 7.98302 4.46208 8.01929C4.45136 8.01929 4.44178 8.03491 4.43219 8.04216V12.4825C4.92819 12.5383 4.93439 12.5439 4.93439 13.0377V13.6516H5.91508C5.91508 13.3686 5.91057 13.1047 5.91508 12.8413C5.92016 12.6086 6.01666 12.5148 6.24858 12.497L6.42238 12.4886ZM1.11426 15.0316H13.8753V14.2598H1.11426V15.0316ZM2.8827 8.02376V12.4769H3.81656V8.02376H2.8827ZM7.96115 12.4802V8.0271H7.03517V12.4802H7.96115ZM11.1882 8.02766V12.473H12.1147V8.02766H11.1882ZM10.6634 6.76315V7.42108H12.6384V6.76315H10.6634ZM4.33683 6.76762H2.36527V7.42275H4.33683V6.76762ZM6.51041 7.41828H8.48536V6.76538H6.51041V7.41828ZM10.6589 13.6499H12.6339V13.0918H10.6589V13.6499ZM4.33457 13.6538V13.0902H2.3675V13.6538H4.33457ZM8.48817 13.0958H6.51322V13.6504H8.48817V13.0958Z"
-                          fill="black"
-                        />
-                        <path
-                          d="M7.49589 4.46611C7.33558 4.46618 7.17684 4.43491 7.02879 4.37409C6.88075 4.31327 6.74635 4.2241 6.63328 4.11171C6.52022 3.99932 6.43074 3.86594 6.36999 3.71923C6.30924 3.57252 6.27842 3.41537 6.27932 3.25683C6.28066 2.93663 6.41008 2.62997 6.63929 2.40381C6.8685 2.17765 7.17889 2.05039 7.50267 2.0498C7.82639 2.05331 8.13578 2.18243 8.36417 2.40934C8.59257 2.63626 8.72171 2.94281 8.72376 3.26298C8.72093 3.58313 8.59029 3.88922 8.36032 4.11457C8.13034 4.33992 7.81964 4.46627 7.49589 4.46611ZM7.49589 3.88518C7.58024 3.88616 7.66392 3.87041 7.74201 3.83888C7.82011 3.80734 7.89104 3.76065 7.95059 3.70156C8.01013 3.64247 8.05709 3.57217 8.08871 3.49483C8.12032 3.41749 8.13595 3.33467 8.13466 3.25126C8.12948 3.08676 8.06059 2.93051 7.94224 2.81482C7.82388 2.69912 7.66511 2.63281 7.49873 2.6296C7.41434 2.62943 7.33075 2.64595 7.25291 2.67818C7.17506 2.71042 7.10453 2.75771 7.04544 2.8173C6.98635 2.87688 6.93991 2.94754 6.90883 3.02513C6.87775 3.10272 6.86267 3.18567 6.86447 3.26911C6.86415 3.351 6.88041 3.43213 6.91228 3.50772C6.94414 3.5833 6.99099 3.65181 7.05004 3.70922C7.10909 3.76663 7.17914 3.81177 7.2561 3.842C7.33306 3.87222 7.41536 3.8869 7.49815 3.88518H7.49589Z"
-                          fill="black"
-                        />
-                      </svg>
-                      <p>
-                        Bank Transfer
-                        <span class="text-sm text-[#484848] block -mt-1"
-                          >1.8% Transaction Fee</span
-                        >
-                      </p>
-                    </label>
-                  </div>
-                </div>
-                <div class="tran-item mt-4">
-                  <div class="input-group flex items-baseline gap-3">
-                    <input
-                      type="checkbox"
-                      class="h-5 w-5 rounded-[4px] text-[#028FF0] focus:ring-0 focus-visible:border-0 focus:ring-offset-0"
-                      id="cardId"
-                    />
-                    <label
-                      class="lg:text-base text-sm font-normal text-black flex items-baseline gap-3"
-                      for="cardId"
-                    >
-                      <svg
-                        width="15"
-                        height="16"
-                        viewBox="0 0 15 16"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.0005 11.0007V11.1907C9.0005 12.3104 9.0005 13.4303 9.0005 14.5503C9.0005 15.1411 8.63812 15.5006 8.04402 15.5006H0.965268C0.359474 15.5006 0 15.144 0 14.5428C0 10.0168 0 5.4907 0 0.964432C0 0.358638 0.356147 0 0.957766 0H8.03607C8.64144 0 9.00009 0.356546 9.00009 0.960253C9.00009 2.16349 9.00009 3.36659 9.00009 4.56955V4.752H14.0268C14.6497 4.752 15 5.10521 15 5.7323C15 7.1543 15 8.57631 15 9.99832C15 10.6576 14.6577 11.0024 14.003 11.0024H9.0005V11.0007ZM2.8027 0.500166H1.0137C0.617078 0.500166 0.499758 0.616229 0.499758 1.0091V14.4944C0.499758 14.8806 0.619581 15.0017 1.00076 15.0017H8.001C8.38135 15.0017 8.502 14.8802 8.502 14.4944V1.0091C8.502 0.95691 8.50409 0.904723 8.502 0.852952C8.48489 0.657562 8.34252 0.505597 8.14629 0.503927C7.50125 0.497664 6.8558 0.501419 6.20116 0.501419C6.13561 0.757765 6.07298 1.00868 6.00743 1.25918C5.95942 1.4433 5.88844 1.49966 5.69889 1.49966C4.90174 1.49966 4.10488 1.49966 3.30829 1.49966C3.11833 1.49966 3.04861 1.44413 3.00018 1.25876C2.93087 1.00868 2.86825 0.757764 2.8027 0.500166ZM14.5007 7.26369H9.00802V8.00266C9.32115 8.00266 9.62676 8.00266 9.93237 8.00266C10.1653 8.00266 10.2497 8.08908 10.2501 8.32497C10.2501 8.76752 10.2501 9.21008 10.2501 9.65263C10.2501 9.92734 10.1737 10.0021 9.89605 10.0021C9.60101 10.0021 9.30612 10.0021 9.01136 10.0021V10.4922C9.02502 10.4963 9.03898 10.4992 9.05311 10.501C10.7401 10.501 12.4271 10.501 14.1141 10.501C14.3433 10.501 14.4948 10.3453 14.499 10.1161C14.504 9.83007 14.499 9.54366 14.499 9.25726L14.5007 7.26369ZM14.4936 6.26168H9.00759V6.74265H14.4957L14.4936 6.26168ZM14.4861 5.74357C14.5278 5.4246 14.3767 5.25133 14.0619 5.25133C12.4169 5.25133 10.772 5.25133 9.12701 5.25133C9.08777 5.25133 9.04811 5.25801 9.01303 5.26135V5.74357H14.4861ZM5.67677 0.50935H3.32415C3.3659 0.679273 3.40765 0.837928 3.44606 0.994073H5.55611C5.59577 0.833753 5.63418 0.67802 5.67635 0.508932L5.67677 0.50935ZM9.01136 8.50617V9.48688H9.74199V8.50617H9.01136Z"
-                          fill="black"
-                        />
-                        <path
-                          d="M1.50001 7.74098C1.49625 6.09602 2.84769 4.75209 4.5081 4.75C6.14178 4.75 7.49323 6.09352 7.49949 7.7272C7.50575 9.38719 6.16724 10.7457 4.52229 10.7491C4.1258 10.7519 3.7327 10.6761 3.36568 10.5261C2.99865 10.3761 2.66498 10.1549 2.38396 9.87517C2.10294 9.59546 1.88014 9.26285 1.72841 8.89653C1.57669 8.53022 1.49906 8.13747 1.50001 7.74098ZM2.00101 7.75517C1.99892 9.125 3.11948 10.2447 4.49723 10.2502C5.86664 10.2556 6.99933 9.12875 7.00016 7.7606C7.00016 6.38034 5.88626 5.25225 4.51894 5.25017C4.18877 5.24791 3.86143 5.31103 3.55577 5.43589C3.25012 5.56076 2.97219 5.74489 2.73804 5.97768C2.50389 6.21048 2.31814 6.48732 2.1915 6.79225C2.06485 7.09718 1.99984 7.42416 2.00017 7.75434L2.00101 7.75517Z"
-                          fill="black"
-                        />
-                        <path
-                          d="M4.49945 14.7505C4.18674 14.7505 3.87319 14.7505 3.56215 14.7505C3.3655 14.7505 3.25112 14.6557 3.25196 14.5C3.25279 14.3443 3.36634 14.2516 3.56382 14.2495C4.18868 14.2495 4.81369 14.2495 5.43882 14.2495C5.63547 14.2495 5.74986 14.3443 5.74944 14.5C5.74903 14.6557 5.63379 14.7505 5.43673 14.7505C5.12443 14.7513 4.81007 14.7505 4.49945 14.7505Z"
-                          fill="black"
-                        />
-                        <path
-                          d="M12.6255 8.50003C12.2715 8.50003 11.9158 8.50003 11.5634 8.50003C11.3663 8.50003 11.252 8.40609 11.252 8.24952C11.252 8.09296 11.3659 7.99902 11.563 7.99902C12.2714 7.99902 12.9797 7.99902 13.6881 7.99902C13.8851 7.99902 13.9995 8.09254 13.9995 8.24952C13.9995 8.4065 13.8847 8.50003 13.6881 8.50003C13.334 8.50086 12.98 8.50003 12.6255 8.50003Z"
-                          fill="black"
-                        />
-                        <path
-                          d="M12.6264 8.75042C12.9804 8.75042 13.3361 8.75042 13.6889 8.75042C13.8856 8.75042 14 8.84477 13.9995 9.00092C13.9991 9.15706 13.8843 9.25142 13.6872 9.25142C12.9792 9.25142 12.271 9.25142 11.5626 9.25142C11.366 9.25142 11.2515 9.15665 11.252 9.00092C11.2524 8.84519 11.3663 8.75042 11.5642 8.75042C11.9183 8.74986 12.2723 8.74986 12.6264 8.75042Z"
-                          fill="black"
-                        />
-                        <path
-                          d="M13.2519 9.50082C13.4031 9.50082 13.5542 9.50082 13.7053 9.50082C13.8874 9.50332 13.9997 9.60185 13.9976 9.75341C13.9955 9.90496 13.8874 9.99806 13.7141 9.99973C13.4018 10.0022 13.0879 10.0026 12.7768 9.99973C12.6065 9.99973 12.4979 9.89451 12.5 9.74714C12.5021 9.59976 12.6106 9.50416 12.7835 9.50123C12.9396 9.49873 13.0958 9.50082 13.2519 9.50082Z"
-                          fill="black"
-                        />
-                        <path
-                          d="M4.22921 8.42056L5.16149 7.48662C5.37024 7.27787 5.57899 7.06535 5.79149 6.85702C5.92342 6.72718 6.06872 6.71758 6.17644 6.82571C6.28415 6.93384 6.27539 7.07955 6.14429 7.21064C5.58623 7.77177 5.02664 8.33149 4.46552 8.88983C4.32232 9.03262 4.21834 9.03763 4.05385 8.91489C3.75325 8.69055 3.45335 8.46566 3.15414 8.24021C2.99382 8.11955 2.95749 7.98302 3.05017 7.85526C3.14286 7.72751 3.28773 7.71874 3.4468 7.83648C3.70565 8.02811 3.96284 8.22141 4.22921 8.42056Z"
-                          fill="black"
-                        />
-                      </svg>
-                      <p>
-                        Bank Card (Visa)
-                        <span class="text-sm text-[#484848] block -mt-1"
-                          >Free Transaction Fee</span
-                        >
-                      </p>
-                    </label>
-                  </div>
-                </div>
-                <div class="flex items-center gap-3 mt-4">
-                  <div class="input-group md:w-[50%] w-full">
-                    <label
-                      for="fName"
-                      class="text-black md:text-base text-sm font-normal block pb-[5px]"
-                      >Bank Name</label
-                    >
-                    <select
-                      id="fName"
-                      class="h-10 w-full border border-[#0DC1D9] rounded-md px-3 md:text-sm text-base text-[#8a8a8a] truncate focus:ring-0 appearance-none"
-                    >
-                      <option value="0">
-                        Enter your bank name...
-                      </option>
-                      <option value="1">
-                        Duchbangla Bank
-                      </option>
-                      <option value="2">
-                        Islami Bank
-                      </option>
-                      <option value="3">
-                        City Bank
-                      </option>
-                    </select>
-                  </div>
-                  <div class="input-group md:w-[50%] w-full">
-                    <label
-                      for="amount"
-                      class="text-black md:text-base text-sm font-normal block pb-[5px]"
-                      >Amount</label
-                    >
-                    <input
-                      type="text"
-                      id="amount"
-                      class="h-10 w-full border border-[#0dc1d9] rounded-md px-3 md:text-sm text-base text-[#8a8a8a] focus:ring-0"
-                      placeholder="enter withdraw amount..."
-                    />
-                  </div>
-                </div>
-                <div class="input-group w-full mt-4">
-                  <label
-                    for="amount"
-                    class="text-black md:text-base text-sm font-normal block pb-[5px]"
-                    >Account Number</label
-                  >
-                  <input
-                    type="text"
-                    id="amount"
-                    class="h-10 w-full border border-[#0dc1d9] rounded-md px-3 md:text-sm text-base text-[#8a8a8a] focus:ring-0"
-                    placeholder="enter your account number..."
-                  />
-                </div>
-                <div class="flex items-center gap-3 mt-4">
-                  <div class="input-group md:w-[50%] w-full">
-                    <label
-                      for="dateI"
-                      class="text-black md:text-base text-sm font-normal block pb-[5px]"
-                      >Expiry Date</label
-                    >
-                    <input
-                      type="Date"
-                      id="DateI"
-                      class="h-10 w-full border border-[#0dc1d9] rounded-md px-3 md:text-sm text-base text-[#8a8a8a] focus:ring-0"
-                      placeholder="enter withdraw amount..."
-                    />
-                  </div>
-                  <div class="input-group md:w-[50%] w-full">
-                    <label
-                      for="amount"
-                      class="text-black md:text-base text-sm font-normal block pb-[5px]"
-                      >Security Code</label
-                    >
-                    <input
-                      type="text"
-                      id="amount"
-                      class="h-10 w-full border border-[#0dc1d9] rounded-md px-3 md:text-sm text-base text-[#8a8a8a] focus:ring-0"
-                      placeholder="enter securit code..."
-                    />
-                  </div>
-                </div>
-                <div class="flex items-center gap-2 mt-3">
-                  <input
-                    type="checkbox"
-                    class="h-5 w-5 rounded-[4px] text-[#028FF0] focus:ring-0 focus-visible:border-0 focus:ring-offset-0"
-                    id="otherCon"
-                  />
-                  <label for="" id="otherCon" class="text-sm"
-                    >I will accept all
-                    <a href="#" class="text-[#028FF0]"
-                      >Terms and conditions</a
-                    ></label
-                  >
-                </div>
+              <div class="more_btn mt-8 flex justify-end">
+                <button type="button" class="bmp_btn capitalize px-10 py-[6px]">
+                  See more
+                </button>
               </div>
-              <div class="mt-6 flex gap-3 items-center">
-                <button
-                  type="button"
-                  class="rounded-md text-black bg-transparent border border-black px-6 py-2 hover:bmp_btn hover:border-transparent"
-                >
-                  Previous
-                </button>
-                <button type="button" id="e_btn" class="bmp_btn px-6 py-2">
-                  Continue
-                </button>
+              <div class="mt-8 max-w-[750px]">
+                <h6 class="text-black lg:text-lg text-base pb-6">
+                  Nots:
+                </h6>
+                <ul class="list-disc pl-4">
+                  <li class="pb-2">
+                    <span
+                      class="lg:text-base text-sm text-[#484848] font-extralight"
+                    >
+                      Share your Lite Referral ID / link with a friend who does
+                      not have a British Market Place account.
+                    </span>
+                  </li>
+                  <li class="pb-2">
+                    <span
+                      class="lg:text-base text-sm text-[#484848] font-extralight"
+                    >
+                      Invite your friends & family to sign up and buy Biritish
+                      market place website peoducts (See FAQ for detailed
+                      rules).
+                    </span>
+                  </li>
+                  <li class="pb-2">
+                    <span
+                      class="lg:text-base text-sm text-[#484848] font-extralight"
+                    >
+                      Disclaimer: You can only claim one reward per referral.
+                      For example, you will not be eligible for Standard
+                      Referral rewards if friends sign up using your [Lite
+                      Referral Mode] ID / link.
+                    </span>
+                  </li>
+                  <li class="pb-2">
+                    <span
+                      class="lg:text-base text-sm text-[#484848] font-extralight"
+                    >
+                      Disclaimer: You can only claim one reward per referral.
+                      For example, you will not be eligible for Standard
+                      Referral rewards if friends sign up using your [Lite
+                      Referral Mode] ID / link.
+                    </span>
+                  </li>
+                  <li class="pb-2">
+                    <span
+                      class="lg:text-base text-sm text-[#484848] font-extralight"
+                    >
+                      Invite your friends & family to sign up and buy Biritish
+                      market place website peoducts (See FAQ for detailed
+                      rules).
+                    </span>
+                  </li>
+                  <li class="pb-2">
+                    <span
+                      class="lg:text-base text-sm text-[#484848] font-extralight"
+                    >
+                      Share your Lite Referral ID / link with a friend who does
+                      not have a British Market Place account.
+                    </span>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -1243,30 +1507,38 @@
             />
           </svg>
         </span>
-        <div class="e_modal_body -mt-40">
+        <div class="e_modal_body">
           <div class="modal-thumb">
             <img
               class="mx-auto"
-              src="../src/images/profile/withdraw-confirm.png"
+              src="../src/images/why-e/form/step-1.png"
               alt=""
             />
           </div>
           <div class="modal-text text-center pt-6">
             <h4 class="lg:text-xl text-lg text-black font-medium">
-              Are you Sure?
+              Write your phone number
             </h4>
-            <p class="text-xs text-black">Are you sure? You want to Withdraw your money ?</p>
-            <div class="flex justify-center items-center gap-3 pt-6">
-              <button type="button" class="text-black w-[100px] py-2 text-sm font-normal border border-black rounded-md">
-                Cancle
-              </button>
-              <button
-                type="button"
-                class="text-sm font-normal bmp_btn w-[100px] py-2"
-              >
-              Sure
-              </button>
-            </div>
+            <form action="" class="mt-6 w-[80%] mx-auto">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="h-[42px] px-3 border border-[#0DC1D9] rounded-md w-full focus-visible:outline-none text-sm placeholder:text-sm text-[#999999]"
+                  placeholder="enter your phone number..."
+                />
+              </div>
+              <div class="flex justify-end items-center gap-3 pt-6">
+                <button type="button" class="text-black text-sm font-normal">
+                  Back
+                </button>
+                <button
+                  type="button"
+                  class="text-sm font-normal bmp_btn w-[100px] py-2"
+                >
+                  Continue
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
@@ -1276,21 +1548,6 @@
     <!-- optional js -->
     <script src="../src/js/swiper-bundle.js"></script>
     <script>
-      const selected = document.querySelector(".selected");
-      const optionsContainer = document.querySelector(".options-container");
-      const optionsList = document.querySelectorAll(".option");
-
-      selected.addEventListener("click", () => {
-        optionsContainer.classList.toggle("active");
-      });
-
-      optionsList.forEach((option) => {
-        option.addEventListener("click", () => {
-          selected.innerHTML = option.querySelector("label").innerHTML;
-          optionsContainer.classList.remove("active");
-        });
-      });
-
       // e-franchise modal
       let apBtn = document.getElementById("e_btn");
       let modalBg = document.getElementById("modal_bg");
